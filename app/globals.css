@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-dark text-white;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-glow-blue hover:scale-105;
+  }
+
+  .bg-gradient-aviation {
+    background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  }
+
+  .bg-gradient-dark {
+    background: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
+  }
+
+  .shadow-glow-blue {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+
+  .animate-slideDown {
+    animation: slideDown 0.3s ease-out;
+  }
+
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) translateX(0) rotate(0deg); opacity: 0.3; }
+    50% { transform: translateY(-25px) translateX(-5px) rotate(-2deg); opacity: 0.7; }
+  }
+
+  .animate-float { animation: float 6s ease-in-out infinite; }
+
+  .services-page-bg,
+  .industries-page-bg,
+  .industry-hero-bg,
+  .about-hero-bg,
+  .products-page-bg,
+  .contact-hero-bg {
+    animation: parallaxBg 40s ease-in-out infinite;
+    transform-origin: center;
+  }
+
+  @keyframes parallaxBg {
+    0%   { transform: translateX(-2%) translateY(-1%) scale(1.05); }
+    25%  { transform: translateX(1%)  translateY(-2%) scale(1.06); }
+    50%  { transform: translateX(2%)  translateY(-1%) scale(1.07); }
+    75%  { transform: translateX(1%)  translateY(0)   scale(1.06); }
+    100% { transform: translateX(-2%) translateY(-1%) scale(1.05); }
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: #2563eb; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #3b82f6; }

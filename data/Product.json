@@ -1,0 +1,1592 @@
+[
+  {
+    "name": "Aircraft Engine Mount",
+    "slug": "aircraft-engine-mount",
+    "description": "High-quality engine mount for commercial aircraft. Certified and tested.",
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "price": 12500,
+    "stock": 5,
+    "images": [
+      "/images/products/engine-mount.jpg"
+    ],
+    "isFeatured": true,
+    "id": "mmgpupuv3cj8oq4ijj8",
+    "createdAt": "2026-03-07T19:28:23.911Z",
+    "updatedAt": "2026-03-07T19:28:23.911Z"
+  },
+  {
+    "name": "Aviation Torque Wrench Set",
+    "slug": "aviation-torque-wrench-set",
+    "description": "Professional-grade torque wrench set for aircraft maintenance.",
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "price": 850,
+    "stock": 12,
+    "images": [
+      "/images/products/torque-wrench.jpg"
+    ],
+    "isFeatured": true,
+    "id": "mmgpupvoh8sfbakzngo",
+    "createdAt": "2026-03-07T19:28:23.940Z",
+    "updatedAt": "2026-03-07T19:28:23.940Z"
+  },
+  {
+    "name": "Aircraft Landing Gear Assembly",
+    "slug": "aircraft-landing-gear-assembly",
+    "description": "Complete landing gear assembly for mid-size commercial aircraft.",
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "price": 45000,
+    "stock": 2,
+    "images": [
+      "/images/products/landing-gear.jpg"
+    ],
+    "isFeatured": false,
+    "id": "mmgpupwjcltqetat32q",
+    "createdAt": "2026-03-07T19:28:23.971Z",
+    "updatedAt": "2026-03-07T19:28:23.971Z"
+  },
+  {
+    "name": "Composite Repair Kit",
+    "slug": "composite-repair-kit",
+    "description": "Complete composite repair kit with all necessary materials and tools.",
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "price": 1200,
+    "stock": 8,
+    "images": [
+      "/images/products/composite-kit.jpg"
+    ],
+    "isFeatured": true,
+    "id": "mmgpupxpb63rga5ok9s",
+    "createdAt": "2026-03-07T19:28:24.013Z",
+    "updatedAt": "2026-03-07T19:28:24.013Z"
+  },
+  {
+    "name": "Hydraulic Pump Assembly",
+    "slug": "hydraulic-pump-assembly",
+    "description": "High-pressure hydraulic pump for aircraft systems.",
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "price": 8500,
+    "stock": 4,
+    "images": [
+      "/images/products/hydraulic-pump.jpg"
+    ],
+    "isFeatured": false,
+    "id": "mmgpupyvxdfn615aia",
+    "createdAt": "2026-03-07T19:28:24.055Z",
+    "updatedAt": "2026-03-07T19:28:24.055Z"
+  },
+  {
+    "name": "Fuel Filter Assembly",
+    "slug": "fuel-filter-assembly",
+    "description": "Certified fuel filter assembly for aircraft fuel systems.",
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "price": 450,
+    "stock": 15,
+    "images": [
+      "/images/products/fuel-filter.jpg"
+    ],
+    "isFeatured": false,
+    "id": "mmgpupzment29os85b",
+    "createdAt": "2026-03-07T19:28:24.082Z",
+    "updatedAt": "2026-03-07T19:28:24.082Z"
+  },
+  {
+    "name": "Wing Spar Assembly",
+    "slug": "wing-spar-assembly",
+    "description": "High-strength wing spar assembly for commercial aircraft. Manufactured to exact specifications.",
+    "price": 18500,
+    "stock": 3,
+    "images": [
+      "/images/products/wing-spar.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8bjwfjs0zzcmzff",
+    "createdAt": "2026-03-07T19:38:58.556Z",
+    "updatedAt": "2026-03-07T19:38:58.557Z"
+  },
+  {
+    "name": "Fuselage Frame Section",
+    "slug": "fuselage-frame-section",
+    "description": "Precision-machined fuselage frame section. Certified for multiple aircraft models.",
+    "price": 12500,
+    "stock": 4,
+    "images": [
+      "/images/products/fuselage-frame.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8bkhg0l48ltxgdc",
+    "createdAt": "2026-03-07T19:38:58.577Z",
+    "updatedAt": "2026-03-07T19:38:58.577Z"
+  },
+  {
+    "name": "Bulkhead Assembly",
+    "slug": "bulkhead-assembly",
+    "description": "Aircraft bulkhead assembly with integrated mounting points. Lightweight and durable.",
+    "price": 9800,
+    "stock": 6,
+    "images": [
+      "/images/products/bulkhead.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8blc8u4z9ah7kmq",
+    "createdAt": "2026-03-07T19:38:58.608Z",
+    "updatedAt": "2026-03-07T19:38:58.608Z"
+  },
+  {
+    "name": "Stringer Assembly Kit",
+    "slug": "stringer-assembly-kit",
+    "description": "Complete stringer assembly kit for aircraft structural reinforcement.",
+    "price": 6500,
+    "stock": 8,
+    "images": [
+      "/images/products/stringer.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8bm75nrfxbm6w5s",
+    "createdAt": "2026-03-07T19:38:58.639Z",
+    "updatedAt": "2026-03-07T19:38:58.639Z"
+  },
+  {
+    "name": "Rib Assembly Set",
+    "slug": "rib-assembly-set",
+    "description": "Aircraft rib assembly set. Includes all necessary components for installation.",
+    "price": 4200,
+    "stock": 10,
+    "images": [
+      "/images/products/rib-assembly.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8bnbgfqimuomdwm",
+    "createdAt": "2026-03-07T19:38:58.679Z",
+    "updatedAt": "2026-03-07T19:38:58.679Z"
+  },
+  {
+    "name": "Skin Panel Section",
+    "slug": "skin-panel-section",
+    "description": "Aircraft skin panel section. Corrosion-resistant and lightweight construction.",
+    "price": 3500,
+    "stock": 12,
+    "images": [
+      "/images/products/skin-panel.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8bo2f7rjbkzharq",
+    "createdAt": "2026-03-07T19:38:58.706Z",
+    "updatedAt": "2026-03-07T19:38:58.707Z"
+  },
+  {
+    "name": "Frame Reinforcement Kit",
+    "slug": "frame-reinforcement-kit",
+    "description": "Frame reinforcement kit for structural modifications and repairs.",
+    "price": 2800,
+    "stock": 15,
+    "images": [
+      "/images/products/frame-reinforcement.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8bos05ce8cv9qoc9",
+    "createdAt": "2026-03-07T19:38:58.732Z",
+    "updatedAt": "2026-03-07T19:38:58.732Z"
+  },
+  {
+    "name": "Structural Bracket Set",
+    "slug": "structural-bracket-set",
+    "description": "Heavy-duty structural bracket set for various mounting applications.",
+    "price": 1500,
+    "stock": 20,
+    "images": [
+      "/images/products/bracket-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8bpyvmohcnvz42b",
+    "createdAt": "2026-03-07T19:38:58.774Z",
+    "updatedAt": "2026-03-07T19:38:58.774Z"
+  },
+  {
+    "name": "Beam Assembly",
+    "slug": "beam-assembly",
+    "description": "Aircraft beam assembly for load-bearing applications. High-strength aluminum construction.",
+    "price": 7200,
+    "stock": 7,
+    "images": [
+      "/images/products/beam-assembly.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8bqv7fdge743eko",
+    "createdAt": "2026-03-07T19:38:58.807Z",
+    "updatedAt": "2026-03-07T19:38:58.807Z"
+  },
+  {
+    "name": "Structural Repair Patch",
+    "slug": "structural-repair-patch",
+    "description": "Composite structural repair patch kit. Includes adhesive and application tools.",
+    "price": 850,
+    "stock": 25,
+    "images": [
+      "/images/products/repair-patch.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuplzjnjy1m24mb",
+    "id": "mmgq8brwf5xxyxb1yjr",
+    "createdAt": "2026-03-07T19:38:58.844Z",
+    "updatedAt": "2026-03-07T19:38:58.844Z"
+  },
+  {
+    "name": "Turbine Blade Set",
+    "slug": "turbine-blade-set",
+    "description": "Precision-engineered turbine blade set. Certified for commercial aircraft engines.",
+    "price": 25000,
+    "stock": 2,
+    "images": [
+      "/images/products/turbine-blade.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8bsubz6l2w1l4f",
+    "createdAt": "2026-03-07T19:38:58.878Z",
+    "updatedAt": "2026-03-07T19:38:58.878Z"
+  },
+  {
+    "name": "Compressor Assembly",
+    "slug": "compressor-assembly",
+    "description": "High-performance compressor assembly for jet engines. OEM quality.",
+    "price": 18500,
+    "stock": 3,
+    "images": [
+      "/images/products/compressor.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8btrc7xbj6t1mx9",
+    "createdAt": "2026-03-07T19:38:58.911Z",
+    "updatedAt": "2026-03-07T19:38:58.911Z"
+  },
+  {
+    "name": "Combustion Chamber",
+    "slug": "combustion-chamber",
+    "description": "Aircraft engine combustion chamber. Heat-resistant materials and precision engineering.",
+    "price": 22000,
+    "stock": 2,
+    "images": [
+      "/images/products/combustion-chamber.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8buz1gukuxen49r",
+    "createdAt": "2026-03-07T19:38:58.955Z",
+    "updatedAt": "2026-03-07T19:38:58.955Z"
+  },
+  {
+    "name": "Fuel Injector Nozzle",
+    "slug": "fuel-injector-nozzle",
+    "description": "Precision fuel injector nozzle for efficient fuel delivery.",
+    "price": 1200,
+    "stock": 15,
+    "images": [
+      "/images/products/injector-nozzle.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8bvyhfrnuont79",
+    "createdAt": "2026-03-07T19:38:58.990Z",
+    "updatedAt": "2026-03-07T19:38:58.990Z"
+  },
+  {
+    "name": "Oil Filter Assembly",
+    "slug": "oil-filter-assembly",
+    "description": "Aircraft engine oil filter assembly. High-capacity filtration system.",
+    "price": 650,
+    "stock": 20,
+    "images": [
+      "/images/products/oil-filter.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8bwzhxgn3ihmvzh",
+    "createdAt": "2026-03-07T19:38:59.027Z",
+    "updatedAt": "2026-03-07T19:38:59.027Z"
+  },
+  {
+    "name": "Igniter Plug Set",
+    "slug": "igniter-plug-set",
+    "description": "Aircraft engine igniter plug set. Reliable ignition for engine startup.",
+    "price": 850,
+    "stock": 18,
+    "images": [
+      "/images/products/igniter-plug.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8bxtilc3w64xizh",
+    "createdAt": "2026-03-07T19:38:59.057Z",
+    "updatedAt": "2026-03-07T19:38:59.057Z"
+  },
+  {
+    "name": "Exhaust Nozzle",
+    "slug": "exhaust-nozzle",
+    "description": "Engine exhaust nozzle assembly. Optimized for thrust and efficiency.",
+    "price": 4500,
+    "stock": 8,
+    "images": [
+      "/images/products/exhaust-nozzle.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8bysnvbgjz1b4w8",
+    "createdAt": "2026-03-07T19:38:59.092Z",
+    "updatedAt": "2026-03-07T19:38:59.092Z"
+  },
+  {
+    "name": "Bearing Assembly",
+    "slug": "bearing-assembly",
+    "description": "High-precision bearing assembly for engine rotating components.",
+    "price": 3200,
+    "stock": 12,
+    "images": [
+      "/images/products/bearing-assembly.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8bzspq0gp84vdop",
+    "createdAt": "2026-03-07T19:38:59.128Z",
+    "updatedAt": "2026-03-07T19:38:59.128Z"
+  },
+  {
+    "name": "Gearbox Assembly",
+    "slug": "gearbox-assembly",
+    "description": "Aircraft engine gearbox assembly. Smooth power transmission.",
+    "price": 15000,
+    "stock": 4,
+    "images": [
+      "/images/products/gearbox.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8c0owazsz7ssibf",
+    "createdAt": "2026-03-07T19:38:59.160Z",
+    "updatedAt": "2026-03-07T19:38:59.160Z"
+  },
+  {
+    "name": "Engine Mount Bracket",
+    "slug": "engine-mount-bracket",
+    "description": "Heavy-duty engine mount bracket. Vibration dampening design.",
+    "price": 2800,
+    "stock": 10,
+    "images": [
+      "/images/products/mount-bracket.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupmzxlbbcsbsmv",
+    "id": "mmgq8c1nf3e6jde80vd",
+    "createdAt": "2026-03-07T19:38:59.195Z",
+    "updatedAt": "2026-03-07T19:38:59.195Z"
+  },
+  {
+    "name": "Flight Management System",
+    "slug": "flight-management-system",
+    "description": "Advanced flight management system with integrated navigation capabilities.",
+    "price": 45000,
+    "stock": 1,
+    "images": [
+      "/images/products/fms.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c2f4fycx8x4rgj",
+    "createdAt": "2026-03-07T19:38:59.223Z",
+    "updatedAt": "2026-03-07T19:38:59.223Z"
+  },
+  {
+    "name": "Autopilot Control Unit",
+    "slug": "autopilot-control-unit",
+    "description": "Precision autopilot control unit for automated flight operations.",
+    "price": 32000,
+    "stock": 2,
+    "images": [
+      "/images/products/autopilot.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c3d553pfl7txcs",
+    "createdAt": "2026-03-07T19:38:59.257Z",
+    "updatedAt": "2026-03-07T19:38:59.257Z"
+  },
+  {
+    "name": "GPS Navigation System",
+    "slug": "gps-navigation-system",
+    "description": "High-accuracy GPS navigation system with multiple satellite support.",
+    "price": 18500,
+    "stock": 3,
+    "images": [
+      "/images/products/gps-system.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c4bq2v8vdz1uq",
+    "createdAt": "2026-03-07T19:38:59.291Z",
+    "updatedAt": "2026-03-07T19:38:59.291Z"
+  },
+  {
+    "name": "Radio Transceiver",
+    "slug": "radio-transceiver",
+    "description": "Aircraft radio transceiver for communication and navigation.",
+    "price": 8500,
+    "stock": 5,
+    "images": [
+      "/images/products/transceiver.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c577vfg89a2um",
+    "createdAt": "2026-03-07T19:38:59.323Z",
+    "updatedAt": "2026-03-07T19:38:59.323Z"
+  },
+  {
+    "name": "Weather Radar Display",
+    "slug": "weather-radar-display",
+    "description": "Advanced weather radar display system for flight safety.",
+    "price": 28000,
+    "stock": 2,
+    "images": [
+      "/images/products/weather-radar.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c651e21ob7hf7",
+    "createdAt": "2026-03-07T19:38:59.357Z",
+    "updatedAt": "2026-03-07T19:38:59.357Z"
+  },
+  {
+    "name": "Transponder Unit",
+    "slug": "transponder-unit",
+    "description": "Aircraft transponder unit for air traffic control communication.",
+    "price": 4200,
+    "stock": 8,
+    "images": [
+      "/images/products/transponder.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c717x47kgqm1ao",
+    "createdAt": "2026-03-07T19:38:59.389Z",
+    "updatedAt": "2026-03-07T19:38:59.389Z"
+  },
+  {
+    "name": "Instrument Display Panel",
+    "slug": "instrument-display-panel",
+    "description": "Digital instrument display panel with multiple screen support.",
+    "price": 12500,
+    "stock": 4,
+    "images": [
+      "/images/products/display-panel.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c7nmgfb181q68",
+    "createdAt": "2026-03-07T19:38:59.411Z",
+    "updatedAt": "2026-03-07T19:38:59.411Z"
+  },
+  {
+    "name": "Circuit Breaker Panel",
+    "slug": "circuit-breaker-panel",
+    "description": "Aircraft circuit breaker panel for electrical system protection.",
+    "price": 2800,
+    "stock": 12,
+    "images": [
+      "/images/products/circuit-breaker.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c8k5zcfoqde747",
+    "createdAt": "2026-03-07T19:38:59.444Z",
+    "updatedAt": "2026-03-07T19:38:59.444Z"
+  },
+  {
+    "name": "Data Recorder Unit",
+    "slug": "data-recorder-unit",
+    "description": "Flight data recorder unit for flight information logging.",
+    "price": 15000,
+    "stock": 3,
+    "images": [
+      "/images/products/data-recorder.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8c9nbg3z66wfcgs",
+    "createdAt": "2026-03-07T19:38:59.483Z",
+    "updatedAt": "2026-03-07T19:38:59.483Z"
+  },
+  {
+    "name": "Antenna Assembly",
+    "slug": "antenna-assembly",
+    "description": "High-performance antenna assembly for communication systems.",
+    "price": 1800,
+    "stock": 15,
+    "images": [
+      "/images/products/antenna.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupnu1648g7958q",
+    "id": "mmgq8camh4j2ef3xszh",
+    "createdAt": "2026-03-07T19:38:59.518Z",
+    "updatedAt": "2026-03-07T19:38:59.518Z"
+  },
+  {
+    "name": "Main Landing Gear Strut",
+    "slug": "main-landing-gear-strut",
+    "description": "Heavy-duty main landing gear strut assembly. Shock-absorbing design.",
+    "price": 55000,
+    "stock": 1,
+    "images": [
+      "/images/products/main-strut.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8cbcm1r1e0ojif9",
+    "createdAt": "2026-03-07T19:38:59.544Z",
+    "updatedAt": "2026-03-07T19:38:59.544Z"
+  },
+  {
+    "name": "Nose Landing Gear Assembly",
+    "slug": "nose-landing-gear-assembly",
+    "description": "Complete nose landing gear assembly with steering mechanism.",
+    "price": 35000,
+    "stock": 2,
+    "images": [
+      "/images/products/nose-gear.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8cc8j3ugirpnud",
+    "createdAt": "2026-03-07T19:38:59.576Z",
+    "updatedAt": "2026-03-07T19:38:59.576Z"
+  },
+  {
+    "name": "Landing Gear Actuator",
+    "slug": "landing-gear-actuator",
+    "description": "Hydraulic landing gear actuator for reliable gear extension and retraction.",
+    "price": 12500,
+    "stock": 4,
+    "images": [
+      "/images/products/gear-actuator.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8cd3vc7vwk2m8n8",
+    "createdAt": "2026-03-07T19:38:59.607Z",
+    "updatedAt": "2026-03-07T19:38:59.607Z"
+  },
+  {
+    "name": "Wheel Assembly Set",
+    "slug": "wheel-assembly-set",
+    "description": "Aircraft wheel assembly set with brake system integration.",
+    "price": 8500,
+    "stock": 6,
+    "images": [
+      "/images/products/wheel-assembly.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8cdz84645ci6yx",
+    "createdAt": "2026-03-07T19:38:59.639Z",
+    "updatedAt": "2026-03-07T19:38:59.639Z"
+  },
+  {
+    "name": "Brake Disc Set",
+    "slug": "brake-disc-set",
+    "description": "High-performance brake disc set for aircraft landing gear.",
+    "price": 4200,
+    "stock": 10,
+    "images": [
+      "/images/products/brake-disc.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8cej4jestghqpkj",
+    "createdAt": "2026-03-07T19:38:59.659Z",
+    "updatedAt": "2026-03-07T19:38:59.659Z"
+  },
+  {
+    "name": "Shock Absorber Unit",
+    "slug": "shock-absorber-unit",
+    "description": "Aircraft landing gear shock absorber unit. Smooth landing performance.",
+    "price": 6800,
+    "stock": 8,
+    "images": [
+      "/images/products/shock-absorber.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8cfdnz30c0y9m2",
+    "createdAt": "2026-03-07T19:38:59.689Z",
+    "updatedAt": "2026-03-07T19:38:59.689Z"
+  },
+  {
+    "name": "Gear Door Actuator",
+    "slug": "gear-door-actuator",
+    "description": "Landing gear door actuator for smooth door operation.",
+    "price": 3200,
+    "stock": 12,
+    "images": [
+      "/images/products/door-actuator.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8cgbb8p4b9bu85k",
+    "createdAt": "2026-03-07T19:38:59.723Z",
+    "updatedAt": "2026-03-07T19:38:59.723Z"
+  },
+  {
+    "name": "Tire Set",
+    "slug": "tire-set",
+    "description": "Aircraft tire set. High-quality rubber with reinforced construction.",
+    "price": 2800,
+    "stock": 15,
+    "images": [
+      "/images/products/tire-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8ch7vjfianin52",
+    "createdAt": "2026-03-07T19:38:59.755Z",
+    "updatedAt": "2026-03-07T19:38:59.755Z"
+  },
+  {
+    "name": "Landing Gear Lock Pin",
+    "slug": "landing-gear-lock-pin",
+    "description": "Safety lock pin for landing gear maintenance and ground operations.",
+    "price": 450,
+    "stock": 25,
+    "images": [
+      "/images/products/lock-pin.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8chxinl7wxu6sj",
+    "createdAt": "2026-03-07T19:38:59.781Z",
+    "updatedAt": "2026-03-07T19:38:59.781Z"
+  },
+  {
+    "name": "Gear Position Sensor",
+    "slug": "gear-position-sensor",
+    "description": "Landing gear position sensor for accurate gear status monitoring.",
+    "price": 1200,
+    "stock": 18,
+    "images": [
+      "/images/products/position-sensor.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupoouy5xnha2ved",
+    "id": "mmgq8cin40cmw985txb",
+    "createdAt": "2026-03-07T19:38:59.807Z",
+    "updatedAt": "2026-03-07T19:38:59.807Z"
+  },
+  {
+    "name": "Passenger Seat Assembly",
+    "slug": "passenger-seat-assembly",
+    "description": "Comfortable passenger seat assembly with adjustable features.",
+    "price": 2800,
+    "stock": 20,
+    "images": [
+      "/images/products/passenger-seat.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8cjf9iriee2c3dq",
+    "createdAt": "2026-03-07T19:38:59.835Z",
+    "updatedAt": "2026-03-07T19:38:59.835Z"
+  },
+  {
+    "name": "Overhead Bin Assembly",
+    "slug": "overhead-bin-assembly",
+    "description": "Aircraft overhead bin assembly. Durable and lightweight design.",
+    "price": 4200,
+    "stock": 15,
+    "images": [
+      "/images/products/overhead-bin.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8ck5j6qq8uwniaf",
+    "createdAt": "2026-03-07T19:38:59.861Z",
+    "updatedAt": "2026-03-07T19:38:59.861Z"
+  },
+  {
+    "name": "Cabin Lighting System",
+    "slug": "cabin-lighting-system",
+    "description": "LED cabin lighting system with adjustable brightness controls.",
+    "price": 3500,
+    "stock": 12,
+    "images": [
+      "/images/products/cabin-lighting.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8cl2e7f93kdabm",
+    "createdAt": "2026-03-07T19:38:59.894Z",
+    "updatedAt": "2026-03-07T19:38:59.894Z"
+  },
+  {
+    "name": "Galley Unit",
+    "slug": "galley-unit",
+    "description": "Aircraft galley unit for food service and storage.",
+    "price": 12500,
+    "stock": 5,
+    "images": [
+      "/images/products/galley.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8cmerdenmuvhtxd",
+    "createdAt": "2026-03-07T19:38:59.942Z",
+    "updatedAt": "2026-03-07T19:38:59.942Z"
+  },
+  {
+    "name": "Lavatory Assembly",
+    "slug": "lavatory-assembly",
+    "description": "Complete lavatory assembly with all necessary fixtures.",
+    "price": 18500,
+    "stock": 3,
+    "images": [
+      "/images/products/lavatory.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8cnd9mzm6jeobxu",
+    "createdAt": "2026-03-07T19:38:59.977Z",
+    "updatedAt": "2026-03-07T19:38:59.977Z"
+  },
+  {
+    "name": "Carpet Set",
+    "slug": "carpet-set",
+    "description": "Aircraft cabin carpet set. Durable and easy to maintain.",
+    "price": 2800,
+    "stock": 10,
+    "images": [
+      "/images/products/carpet.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8coswrzewhs2vt",
+    "createdAt": "2026-03-07T19:39:00.028Z",
+    "updatedAt": "2026-03-07T19:39:00.028Z"
+  },
+  {
+    "name": "Window Shade Assembly",
+    "slug": "window-shade-assembly",
+    "description": "Aircraft window shade assembly with smooth operation.",
+    "price": 850,
+    "stock": 30,
+    "images": [
+      "/images/products/window-shade.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8cqhkf3hk4yoek",
+    "createdAt": "2026-03-07T19:39:00.089Z",
+    "updatedAt": "2026-03-07T19:39:00.089Z"
+  },
+  {
+    "name": "Cabin Panel Set",
+    "slug": "cabin-panel-set",
+    "description": "Interior cabin panel set. Lightweight and fire-resistant materials.",
+    "price": 4500,
+    "stock": 8,
+    "images": [
+      "/images/products/cabin-panel.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8cri9cxwk9y7kw5",
+    "createdAt": "2026-03-07T19:39:00.126Z",
+    "updatedAt": "2026-03-07T19:39:00.126Z"
+  },
+  {
+    "name": "Seat Belt Assembly",
+    "slug": "seat-belt-assembly",
+    "description": "Aircraft seat belt assembly. Safety-certified and comfortable.",
+    "price": 450,
+    "stock": 50,
+    "images": [
+      "/images/products/seat-belt.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8cswqlqon6ka5a",
+    "createdAt": "2026-03-07T19:39:00.176Z",
+    "updatedAt": "2026-03-07T19:39:00.176Z"
+  },
+  {
+    "name": "Cabin Air Vent",
+    "slug": "cabin-air-vent",
+    "description": "Adjustable cabin air vent for passenger comfort.",
+    "price": 320,
+    "stock": 40,
+    "images": [
+      "/images/products/air-vent.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuppecrdglap7nq",
+    "id": "mmgq8ctu6apzyyzh45t",
+    "createdAt": "2026-03-07T19:39:00.210Z",
+    "updatedAt": "2026-03-07T19:39:00.210Z"
+  },
+  {
+    "name": "Rivet Gun Set",
+    "slug": "rivet-gun-set",
+    "description": "Professional rivet gun set for aircraft maintenance and repairs.",
+    "price": 850,
+    "stock": 15,
+    "images": [
+      "/images/products/rivet-gun.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8cus0is7yytw4i0p",
+    "createdAt": "2026-03-07T19:39:00.244Z",
+    "updatedAt": "2026-03-07T19:39:00.244Z"
+  },
+  {
+    "name": "Sheet Metal Bender",
+    "slug": "sheet-metal-bender",
+    "description": "Precision sheet metal bender for aircraft component fabrication.",
+    "price": 4200,
+    "stock": 6,
+    "images": [
+      "/images/products/metal-bender.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8cw2sgks8dp8eno",
+    "createdAt": "2026-03-07T19:39:00.290Z",
+    "updatedAt": "2026-03-07T19:39:00.290Z"
+  },
+  {
+    "name": "Composite Repair Kit",
+    "slug": "composite-repair-kit-advanced",
+    "description": "Advanced composite repair kit with specialized tools and materials.",
+    "price": 2800,
+    "stock": 8,
+    "images": [
+      "/images/products/composite-kit-adv.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8cwpl3zydx0svzf",
+    "createdAt": "2026-03-07T19:39:00.314Z",
+    "updatedAt": "2026-03-07T19:39:00.314Z"
+  },
+  {
+    "name": "Hydraulic Test Bench",
+    "slug": "hydraulic-test-bench",
+    "description": "Professional hydraulic test bench for system testing and calibration.",
+    "price": 18500,
+    "stock": 2,
+    "images": [
+      "/images/products/test-bench.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8cxso2jrupd5m4c",
+    "createdAt": "2026-03-07T19:39:00.352Z",
+    "updatedAt": "2026-03-07T19:39:00.352Z"
+  },
+  {
+    "name": "Wire Crimping Tool Set",
+    "slug": "wire-crimping-tool-set",
+    "description": "Precision wire crimping tool set for electrical connections.",
+    "price": 650,
+    "stock": 20,
+    "images": [
+      "/images/products/crimping-tool.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8cygscais4odmz9",
+    "createdAt": "2026-03-07T19:39:00.376Z",
+    "updatedAt": "2026-03-07T19:39:00.376Z"
+  },
+  {
+    "name": "Borescope Inspection Kit",
+    "slug": "borescope-inspection-kit",
+    "description": "Advanced borescope inspection kit for internal component examination.",
+    "price": 8500,
+    "stock": 4,
+    "images": [
+      "/images/products/borescope.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8czcncfln025a4",
+    "createdAt": "2026-03-07T19:39:00.408Z",
+    "updatedAt": "2026-03-07T19:39:00.408Z"
+  },
+  {
+    "name": "Calibration Equipment Set",
+    "slug": "calibration-equipment-set",
+    "description": "Precision calibration equipment set for instrument verification.",
+    "price": 12500,
+    "stock": 3,
+    "images": [
+      "/images/products/calibration.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8d09cepcsxvdga5",
+    "createdAt": "2026-03-07T19:39:00.441Z",
+    "updatedAt": "2026-03-07T19:39:00.441Z"
+  },
+  {
+    "name": "Safety Harness Set",
+    "slug": "safety-harness-set",
+    "description": "Professional safety harness set for maintenance personnel.",
+    "price": 1200,
+    "stock": 12,
+    "images": [
+      "/images/products/safety-harness.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8d18jhqsumuj0f",
+    "createdAt": "2026-03-07T19:39:00.476Z",
+    "updatedAt": "2026-03-07T19:39:00.476Z"
+  },
+  {
+    "name": "Measuring Tool Kit",
+    "slug": "measuring-tool-kit",
+    "description": "Comprehensive measuring tool kit for precision measurements.",
+    "price": 1800,
+    "stock": 10,
+    "images": [
+      "/images/products/measuring-kit.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8d24pmpqu5qdkzr",
+    "createdAt": "2026-03-07T19:39:00.508Z",
+    "updatedAt": "2026-03-07T19:39:00.508Z"
+  },
+  {
+    "name": "Cleaning Solution Set",
+    "slug": "cleaning-solution-set",
+    "description": "Aircraft-grade cleaning solution set for maintenance operations.",
+    "price": 450,
+    "stock": 25,
+    "images": [
+      "/images/products/cleaning-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupqdk8qb7p8r2e",
+    "id": "mmgq8d34lg249ob5pg",
+    "createdAt": "2026-03-07T19:39:00.544Z",
+    "updatedAt": "2026-03-07T19:39:00.544Z"
+  },
+  {
+    "name": "Aircraft Bolt Set",
+    "slug": "aircraft-bolt-set",
+    "description": "High-strength aircraft bolt set. Various sizes and materials available.",
+    "price": 850,
+    "stock": 30,
+    "images": [
+      "/images/products/bolt-set.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8d42to094sph3l",
+    "createdAt": "2026-03-07T19:39:00.578Z",
+    "updatedAt": "2026-03-07T19:39:00.578Z"
+  },
+  {
+    "name": "Rivet Assortment Kit",
+    "slug": "rivet-assortment-kit",
+    "description": "Comprehensive rivet assortment kit for various applications.",
+    "price": 650,
+    "stock": 25,
+    "images": [
+      "/images/products/rivet-kit.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8d5fkxcdk36u6a8",
+    "createdAt": "2026-03-07T19:39:00.627Z",
+    "updatedAt": "2026-03-07T19:39:00.627Z"
+  },
+  {
+    "name": "Screw Set Collection",
+    "slug": "screw-set-collection",
+    "description": "Aircraft-grade screw set collection. Multiple thread types and sizes.",
+    "price": 450,
+    "stock": 35,
+    "images": [
+      "/images/products/screw-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8d6os1i44c5otl",
+    "createdAt": "2026-03-07T19:39:00.672Z",
+    "updatedAt": "2026-03-07T19:39:00.672Z"
+  },
+  {
+    "name": "Washer Assortment",
+    "slug": "washer-assortment",
+    "description": "Precision washer assortment for various fastener applications.",
+    "price": 280,
+    "stock": 50,
+    "images": [
+      "/images/products/washer-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8d7r5mfqecxlqml",
+    "createdAt": "2026-03-07T19:39:00.711Z",
+    "updatedAt": "2026-03-07T19:39:00.712Z"
+  },
+  {
+    "name": "Nut Collection Set",
+    "slug": "nut-collection-set",
+    "description": "Aircraft-grade nut collection set. Locking and standard types.",
+    "price": 550,
+    "stock": 40,
+    "images": [
+      "/images/products/nut-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8d908xur6h7z6r9",
+    "createdAt": "2026-03-07T19:39:00.756Z",
+    "updatedAt": "2026-03-07T19:39:00.756Z"
+  },
+  {
+    "name": "Pin Set Assortment",
+    "slug": "pin-set-assortment",
+    "description": "Aircraft pin set assortment. Cotter pins and clevis pins included.",
+    "price": 320,
+    "stock": 45,
+    "images": [
+      "/images/products/pin-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8dabf7e6udoc2d",
+    "createdAt": "2026-03-07T19:39:00.804Z",
+    "updatedAt": "2026-03-07T19:39:00.804Z"
+  },
+  {
+    "name": "Clamp Set",
+    "slug": "clamp-set",
+    "description": "Aircraft clamp set for hose and cable management.",
+    "price": 680,
+    "stock": 20,
+    "images": [
+      "/images/products/clamp-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8dbd5poor3q6qma",
+    "createdAt": "2026-03-07T19:39:00.841Z",
+    "updatedAt": "2026-03-07T19:39:00.841Z"
+  },
+  {
+    "name": "Bracket Hardware Kit",
+    "slug": "bracket-hardware-kit",
+    "description": "Complete bracket hardware kit with all mounting components.",
+    "price": 850,
+    "stock": 18,
+    "images": [
+      "/images/products/bracket-hardware.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8dcpq2gbrg6uvj",
+    "createdAt": "2026-03-07T19:39:00.889Z",
+    "updatedAt": "2026-03-07T19:39:00.889Z"
+  },
+  {
+    "name": "Retaining Ring Set",
+    "slug": "retaining-ring-set",
+    "description": "Aircraft retaining ring set for component retention applications.",
+    "price": 420,
+    "stock": 30,
+    "images": [
+      "/images/products/retaining-ring.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8ddwpvouplikb1t",
+    "createdAt": "2026-03-07T19:39:00.932Z",
+    "updatedAt": "2026-03-07T19:39:00.932Z"
+  },
+  {
+    "name": "Threaded Insert Set",
+    "slug": "threaded-insert-set",
+    "description": "Threaded insert set for repair and modification applications.",
+    "price": 750,
+    "stock": 22,
+    "images": [
+      "/images/products/threaded-insert.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuprlxtxoiqphsbf",
+    "id": "mmgq8df2v75epnxcx3",
+    "createdAt": "2026-03-07T19:39:00.974Z",
+    "updatedAt": "2026-03-07T19:39:00.974Z"
+  },
+  {
+    "name": "Hydraulic Pump Unit",
+    "slug": "hydraulic-pump-unit",
+    "description": "High-pressure hydraulic pump unit for aircraft systems.",
+    "price": 12500,
+    "stock": 4,
+    "images": [
+      "/images/products/hydraulic-pump.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8dgeghxwlehinbj",
+    "createdAt": "2026-03-07T19:39:01.022Z",
+    "updatedAt": "2026-03-07T19:39:01.022Z"
+  },
+  {
+    "name": "Hydraulic Cylinder",
+    "slug": "hydraulic-cylinder",
+    "description": "Precision hydraulic cylinder for landing gear and control surfaces.",
+    "price": 8500,
+    "stock": 6,
+    "images": [
+      "/images/products/hydraulic-cylinder.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8dheyk40mjgggpg",
+    "createdAt": "2026-03-07T19:39:01.058Z",
+    "updatedAt": "2026-03-07T19:39:01.059Z"
+  },
+  {
+    "name": "Hydraulic Filter Assembly",
+    "slug": "hydraulic-filter-assembly",
+    "description": "High-capacity hydraulic filter assembly for system cleanliness.",
+    "price": 1200,
+    "stock": 15,
+    "images": [
+      "/images/products/hydraulic-filter.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8diqydp69rwbm1",
+    "createdAt": "2026-03-07T19:39:01.106Z",
+    "updatedAt": "2026-03-07T19:39:01.106Z"
+  },
+  {
+    "name": "Hydraulic Reservoir",
+    "slug": "hydraulic-reservoir",
+    "description": "Aircraft hydraulic reservoir with integrated monitoring system.",
+    "price": 4200,
+    "stock": 8,
+    "images": [
+      "/images/products/hydraulic-reservoir.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8djs8yxkosedioo",
+    "createdAt": "2026-03-07T19:39:01.144Z",
+    "updatedAt": "2026-03-07T19:39:01.144Z"
+  },
+  {
+    "name": "Hydraulic Valve Assembly",
+    "slug": "hydraulic-valve-assembly",
+    "description": "Precision hydraulic valve assembly for flow control.",
+    "price": 6800,
+    "stock": 5,
+    "images": [
+      "/images/products/hydraulic-valve.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8dku5wqg4x393ya",
+    "createdAt": "2026-03-07T19:39:01.182Z",
+    "updatedAt": "2026-03-07T19:39:01.182Z"
+  },
+  {
+    "name": "Hydraulic Hose Set",
+    "slug": "hydraulic-hose-set",
+    "description": "High-pressure hydraulic hose set. Various lengths and fittings.",
+    "price": 2800,
+    "stock": 12,
+    "images": [
+      "/images/products/hydraulic-hose.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8dlrhtaj2uuaj4",
+    "createdAt": "2026-03-07T19:39:01.215Z",
+    "updatedAt": "2026-03-07T19:39:01.215Z"
+  },
+  {
+    "name": "Hydraulic Fitting Kit",
+    "slug": "hydraulic-fitting-kit",
+    "description": "Comprehensive hydraulic fitting kit for system connections.",
+    "price": 850,
+    "stock": 20,
+    "images": [
+      "/images/products/hydraulic-fitting.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8dmymzzdog049oa",
+    "createdAt": "2026-03-07T19:39:01.258Z",
+    "updatedAt": "2026-03-07T19:39:01.258Z"
+  },
+  {
+    "name": "Hydraulic Accumulator",
+    "slug": "hydraulic-accumulator",
+    "description": "Aircraft hydraulic accumulator for pressure stabilization.",
+    "price": 5500,
+    "stock": 7,
+    "images": [
+      "/images/products/hydraulic-accumulator.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8doc1frug33pkr3",
+    "createdAt": "2026-03-07T19:39:01.308Z",
+    "updatedAt": "2026-03-07T19:39:01.308Z"
+  },
+  {
+    "name": "Hydraulic Seal Kit",
+    "slug": "hydraulic-seal-kit",
+    "description": "Complete hydraulic seal kit for system maintenance and repair.",
+    "price": 650,
+    "stock": 25,
+    "images": [
+      "/images/products/hydraulic-seal.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8dpcqv5oqn3dim",
+    "createdAt": "2026-03-07T19:39:01.344Z",
+    "updatedAt": "2026-03-07T19:39:01.344Z"
+  },
+  {
+    "name": "Hydraulic Pressure Gauge",
+    "slug": "hydraulic-pressure-gauge",
+    "description": "Precision hydraulic pressure gauge for system monitoring.",
+    "price": 450,
+    "stock": 30,
+    "images": [
+      "/images/products/pressure-gauge.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpupshjhz4w1t3zy",
+    "id": "mmgq8dqpj4a74f8hfvc",
+    "createdAt": "2026-03-07T19:39:01.393Z",
+    "updatedAt": "2026-03-07T19:39:01.393Z"
+  },
+  {
+    "name": "Wire Harness Assembly",
+    "slug": "wire-harness-assembly",
+    "description": "Complete wire harness assembly for aircraft electrical systems.",
+    "price": 8500,
+    "stock": 5,
+    "images": [
+      "/images/products/wire-harness.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8drlnb9npdtsayc",
+    "createdAt": "2026-03-07T19:39:01.425Z",
+    "updatedAt": "2026-03-07T19:39:01.425Z"
+  },
+  {
+    "name": "Circuit Breaker Panel",
+    "slug": "circuit-breaker-panel-electrical",
+    "description": "Aircraft circuit breaker panel for electrical protection.",
+    "price": 4200,
+    "stock": 8,
+    "images": [
+      "/images/products/circuit-panel.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8dshpy16mfry2i",
+    "createdAt": "2026-03-07T19:39:01.457Z",
+    "updatedAt": "2026-03-07T19:39:01.457Z"
+  },
+  {
+    "name": "Electrical Connector Set",
+    "slug": "electrical-connector-set",
+    "description": "Aircraft-grade electrical connector set. Various types and sizes.",
+    "price": 1200,
+    "stock": 15,
+    "images": [
+      "/images/products/connector-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8dtgkssugecpnsd",
+    "createdAt": "2026-03-07T19:39:01.492Z",
+    "updatedAt": "2026-03-07T19:39:01.492Z"
+  },
+  {
+    "name": "Battery Assembly",
+    "slug": "battery-assembly",
+    "description": "Aircraft battery assembly with integrated charging system.",
+    "price": 6800,
+    "stock": 6,
+    "images": [
+      "/images/products/battery.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8duiepr5t5y05cn",
+    "createdAt": "2026-03-07T19:39:01.530Z",
+    "updatedAt": "2026-03-07T19:39:01.530Z"
+  },
+  {
+    "name": "Generator Unit",
+    "slug": "generator-unit",
+    "description": "Aircraft generator unit for electrical power generation.",
+    "price": 18500,
+    "stock": 3,
+    "images": [
+      "/images/products/generator.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8dvhccxp3za2ill",
+    "createdAt": "2026-03-07T19:39:01.565Z",
+    "updatedAt": "2026-03-07T19:39:01.565Z"
+  },
+  {
+    "name": "Starter Motor",
+    "slug": "starter-motor",
+    "description": "Aircraft starter motor for engine startup operations.",
+    "price": 12500,
+    "stock": 4,
+    "images": [
+      "/images/products/starter-motor.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8dw9ivwos9w78x",
+    "createdAt": "2026-03-07T19:39:01.593Z",
+    "updatedAt": "2026-03-07T19:39:01.593Z"
+  },
+  {
+    "name": "Relay Assembly Set",
+    "slug": "relay-assembly-set",
+    "description": "Aircraft relay assembly set for electrical switching applications.",
+    "price": 850,
+    "stock": 20,
+    "images": [
+      "/images/products/relay-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8dxieq73y6bky4d",
+    "createdAt": "2026-03-07T19:39:01.638Z",
+    "updatedAt": "2026-03-07T19:39:01.638Z"
+  },
+  {
+    "name": "Fuse Block Assembly",
+    "slug": "fuse-block-assembly",
+    "description": "Aircraft fuse block assembly for circuit protection.",
+    "price": 650,
+    "stock": 25,
+    "images": [
+      "/images/products/fuse-block.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8dybmokr9x1k57j",
+    "createdAt": "2026-03-07T19:39:01.667Z",
+    "updatedAt": "2026-03-07T19:39:01.667Z"
+  },
+  {
+    "name": "Electrical Switch Panel",
+    "slug": "electrical-switch-panel",
+    "description": "Aircraft electrical switch panel with multiple control switches.",
+    "price": 2800,
+    "stock": 12,
+    "images": [
+      "/images/products/switch-panel.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8dz2ppv1233ss2n",
+    "createdAt": "2026-03-07T19:39:01.694Z",
+    "updatedAt": "2026-03-07T19:39:01.694Z"
+  },
+  {
+    "name": "Cable Assembly Set",
+    "slug": "cable-assembly-set",
+    "description": "Aircraft cable assembly set for various electrical connections.",
+    "price": 1800,
+    "stock": 15,
+    "images": [
+      "/images/products/cable-set.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuptmgtcegk1yyu7",
+    "id": "mmgq8dzyy0vxmram7pf",
+    "createdAt": "2026-03-07T19:39:01.726Z",
+    "updatedAt": "2026-03-07T19:39:01.726Z"
+  },
+  {
+    "name": "Fuel Pump Assembly",
+    "slug": "fuel-pump-assembly",
+    "description": "High-capacity fuel pump assembly for aircraft fuel systems.",
+    "price": 8500,
+    "stock": 5,
+    "images": [
+      "/images/products/fuel-pump.jpg"
+    ],
+    "isFeatured": true,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e18hnmqkea1c6u",
+    "createdAt": "2026-03-07T19:39:01.772Z",
+    "updatedAt": "2026-03-07T19:39:01.772Z"
+  },
+  {
+    "name": "Fuel Tank Assembly",
+    "slug": "fuel-tank-assembly",
+    "description": "Aircraft fuel tank assembly with integrated monitoring system.",
+    "price": 25000,
+    "stock": 2,
+    "images": [
+      "/images/products/fuel-tank.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e29z5ru3xkisja",
+    "createdAt": "2026-03-07T19:39:01.809Z",
+    "updatedAt": "2026-03-07T19:39:01.809Z"
+  },
+  {
+    "name": "Fuel Line Set",
+    "slug": "fuel-line-set",
+    "description": "Aircraft fuel line set. High-quality materials for safe fuel transfer.",
+    "price": 4200,
+    "stock": 8,
+    "images": [
+      "/images/products/fuel-line.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e3les70pld3woc",
+    "createdAt": "2026-03-07T19:39:01.857Z",
+    "updatedAt": "2026-03-07T19:39:01.857Z"
+  },
+  {
+    "name": "Fuel Valve Assembly",
+    "slug": "fuel-valve-assembly",
+    "description": "Precision fuel valve assembly for flow control and safety.",
+    "price": 6800,
+    "stock": 6,
+    "images": [
+      "/images/products/fuel-valve.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e45ehxfb3k69x",
+    "createdAt": "2026-03-07T19:39:01.877Z",
+    "updatedAt": "2026-03-07T19:39:01.877Z"
+  },
+  {
+    "name": "Fuel Quantity Sensor",
+    "slug": "fuel-quantity-sensor",
+    "description": "Aircraft fuel quantity sensor for accurate fuel level monitoring.",
+    "price": 2800,
+    "stock": 12,
+    "images": [
+      "/images/products/fuel-sensor.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e5aos6anz4y86g",
+    "createdAt": "2026-03-07T19:39:01.918Z",
+    "updatedAt": "2026-03-07T19:39:01.918Z"
+  },
+  {
+    "name": "Fuel Filter Element",
+    "slug": "fuel-filter-element",
+    "description": "Aircraft fuel filter element for clean fuel delivery.",
+    "price": 450,
+    "stock": 30,
+    "images": [
+      "/images/products/fuel-filter-element.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e6feuazcvr1gq5",
+    "createdAt": "2026-03-07T19:39:01.959Z",
+    "updatedAt": "2026-03-07T19:39:01.960Z"
+  },
+  {
+    "name": "Fuel Cap Assembly",
+    "slug": "fuel-cap-assembly",
+    "description": "Aircraft fuel cap assembly with secure locking mechanism.",
+    "price": 650,
+    "stock": 25,
+    "images": [
+      "/images/products/fuel-cap.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e7e8zvpell3l05",
+    "createdAt": "2026-03-07T19:39:01.994Z",
+    "updatedAt": "2026-03-07T19:39:01.994Z"
+  },
+  {
+    "name": "Fuel Transfer Pump",
+    "slug": "fuel-transfer-pump",
+    "description": "Aircraft fuel transfer pump for fuel management operations.",
+    "price": 5500,
+    "stock": 7,
+    "images": [
+      "/images/products/transfer-pump.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e8bpc0t3tay5kl",
+    "createdAt": "2026-03-07T19:39:02.027Z",
+    "updatedAt": "2026-03-07T19:39:02.027Z"
+  },
+  {
+    "name": "Fuel Vent System",
+    "slug": "fuel-vent-system",
+    "description": "Aircraft fuel vent system for safe fuel tank pressure management.",
+    "price": 3200,
+    "stock": 10,
+    "images": [
+      "/images/products/fuel-vent.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8e98h2fxc57929i",
+    "createdAt": "2026-03-07T19:39:02.060Z",
+    "updatedAt": "2026-03-07T19:39:02.060Z"
+  },
+  {
+    "name": "Fuel Drain Valve",
+    "slug": "fuel-drain-valve",
+    "description": "Aircraft fuel drain valve for maintenance and sampling operations.",
+    "price": 850,
+    "stock": 20,
+    "images": [
+      "/images/products/drain-valve.jpg"
+    ],
+    "isFeatured": false,
+    "categoryId": "mmgpuput47uhxnnro2g",
+    "id": "mmgq8ea38l29jxvdocd",
+    "createdAt": "2026-03-07T19:39:02.091Z",
+    "updatedAt": "2026-03-07T19:39:02.092Z"
+  }
+]
