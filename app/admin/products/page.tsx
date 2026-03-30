@@ -12,6 +12,7 @@ interface Product {
   name: string
   slug: string
   description: string
+  detail?: string
   categoryId: string
   price: number
   stock: number
@@ -37,6 +38,7 @@ export default function AdminProductsPage() {
     name: '',
     slug: '',
     description: '',
+    detail: '',
     categoryId: '',
     price: '',
     stock: '',
@@ -143,6 +145,7 @@ export default function AdminProductsPage() {
       name: product.name,
       slug: product.slug,
       description: product.description,
+      detail: product.detail ?? '',
       categoryId: product.categoryId,
       price: product.price.toString(),
       stock: product.stock.toString(),
@@ -184,6 +187,7 @@ export default function AdminProductsPage() {
       name: '',
       slug: '',
       description: '',
+      detail: '',
       categoryId: '',
       price: '',
       stock: '',
@@ -308,6 +312,14 @@ export default function AdminProductsPage() {
                 <label className="block text-sm font-medium text-white/70 mb-2">Description *</label>
                 <textarea required rows={3} value={formData.description}
                   onChange={(e) => setFormData({ ...formData, description: e.target.value })}
+                  className="w-full px-4 py-2 bg-white/5 border border-white/10 text-white placeholder-white/30 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-white/70 mb-2">Detail <span className="text-white/30">(bullet points — one per line)</span></label>
+                <textarea rows={4} value={formData.detail}
+                  onChange={(e) => setFormData({ ...formData, detail: e.target.value })}
+                  placeholder="Each line will appear as a bullet point on the product page."
                   className="w-full px-4 py-2 bg-white/5 border border-white/10 text-white placeholder-white/30 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
               </div>
 

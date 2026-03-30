@@ -11,20 +11,20 @@ const prisma = new PrismaClient()
 async function main() {
   console.log('Starting fresh seed...')
 
-  // // ── Wipe existing data (order matters for relations) ──────────────────────
-  // await prisma.cartItem.deleteMany()
-  // await prisma.cart.deleteMany()
-  // await prisma.orderItem.deleteMany()
-  // await prisma.order.deleteMany()
-  // await prisma.quote.deleteMany()
-  // await prisma.product.deleteMany()
-  // await prisma.category.deleteMany()
-  // await prisma.service.deleteMany()
-  // await prisma.industry.deleteMany()
-  // await prisma.session.deleteMany()
-  // await prisma.account.deleteMany()
-  // await prisma.user.deleteMany()
-  // console.log('Cleared existing data')
+  // ── Wipe existing data (order matters for relations) ──────────────────────
+  await prisma.cartItem.deleteMany()
+  await prisma.cart.deleteMany()
+  await prisma.orderItem.deleteMany()
+  await prisma.order.deleteMany()
+  await prisma.quote.deleteMany()
+  await prisma.product.deleteMany()
+  await prisma.category.deleteMany()
+  await prisma.service.deleteMany()
+  await prisma.industry.deleteMany()
+  await prisma.session.deleteMany()
+  await prisma.account.deleteMany()
+  await prisma.user.deleteMany()
+  console.log('Cleared existing data')
 
   // ── Users ─────────────────────────────────────────────────────────────────
   await prisma.user.create({
@@ -83,6 +83,7 @@ async function main() {
         name: p.name,
         slug: p.slug,
         description: p.description,
+        detail: (p as any).detail ?? null,
         price: p.price,
         stock: p.stock,
         image: p.image,

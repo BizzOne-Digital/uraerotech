@@ -44,43 +44,88 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               )}
 
               <ScrollAnimation animation="slideRight" delay={100}>
-                <article className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 sm:p-8 md:p-12">
+                <article className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 sm:p-8 md:p-10">
                   <div className="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
                     <span className="text-4xl sm:text-5xl md:text-6xl">{service.icon}</span>
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">{service.name}</h1>
                   </div>
-                  <p className="text-base sm:text-lg md:text-xl text-white/80 mb-6 sm:mb-8">{service.description}</p>
+                  <p className="text-base sm:text-lg md:text-xl text-white/80 mb-8 pb-8 border-b border-white/10">{service.description}</p>
 
-                  <div className="prose prose-invert max-w-none">
-                    <div className="text-white/70 leading-relaxed">
-                      {service.content.split('\n\n').map((paragraph, pIndex) => {
-                        if (paragraph.trim().startsWith('**') && paragraph.trim().endsWith('**')) {
+                  <div className="space-y-6">
+                    {(() => {
+                      const blocks: { heading: string | null; body: string[]; bullets: string[] }[] = []
+                      let current: { heading: string | null; body: string[]; bullets: string[] } = { heading: null, body: [], bullets: [] }
+
+                      service.content.split('\n').forEach((line) => {
+                        const trimmed = line.trim()
+
+                        if (trimmed.startsWith('**') && (trimmed.endsWith('**') || trimmed.endsWith(':**'))) {
+                          if (current.heading !== null || current.body.length || current.bullets.length) blocks.push(current)
+                          current = { heading: trimmed.replace(/\*\*/g, '').replace(/:$/, '').trim(), body: [], bullets: [] }
+                        } else if (trimmed.startsWith('- ')) {
+                          current.bullets.push(trimmed.replace(/^- /, '').trim())
+                        } else if (trimmed.match(/^\d+\.\s/)) {
+                          current.bullets.push(trimmed.replace(/^\d+\.\s*/, '').trim())
+                        } else if (trimmed) {
+                          current.body.push(trimmed)
+                        }
+                      })
+                      if (current.heading !== null || current.body.length || current.bullets.length) blocks.push(current)
+
+                      const sectionIcons: Record<string, string> = {
+                        'Our Expertise': '🏆', 'How We Work': '⚙️', 'Why It Matters': '💡',
+                        'Why Choose Us': '✅', 'What We Do': '🔧', 'Key Benefits': '🎯',
+                        'Key Features': '⭐', 'Our Repair Process': '🔄', 'The Modification Process': '📐',
+                      }
+
+                      return blocks.map((block, i) => {
+                        const isCTA = block.heading && (block.heading.startsWith('Reach out') || block.heading.startsWith('Contact us'))
+                        const isBulletSection = block.bullets.length > 0
+                        const icon = block.heading ? (sectionIcons[block.heading] ?? '📌') : null
+
+                        if (isCTA) {
                           return (
-                            <h3 key={pIndex} className="text-2xl font-bold text-white mt-8 mb-4">
-                              {paragraph.replace(/\*\*/g, '').trim()}
-                            </h3>
+                            <div key={i} className="bg-gradient-to-r from-blue-600/20 to-indigo-600/20 border border-blue-400/30 rounded-xl p-6 text-center">
+                              <p className="text-blue-300 font-semibold text-lg">{block.heading}</p>
+                            </div>
                           )
                         }
-                        if (paragraph.trim().startsWith('- ')) {
-                          const items = paragraph.split('\n').filter(line => line.trim().startsWith('- '))
+
+                        if (!block.heading && block.body.length) {
                           return (
-                            <ul key={pIndex} className="list-disc list-inside space-y-2 mb-6 mt-4">
-                              {items.map((item, iIndex) => (
-                                <li key={iIndex} className="text-white/70">
-                                  {item.substring(2).trim()}
-                                </li>
-                              ))}
-                            </ul>
+                            <div key={i} className="text-white/70 leading-relaxed space-y-2">
+                              {block.body.map((t, j) => <p key={j}>{t}</p>)}
+                            </div>
                           )
                         }
-                        if (paragraph.trim() === '') return null
+
                         return (
-                          <p key={pIndex} className="mb-4">
-                            {paragraph.trim()}
-                          </p>
+                          <div key={i} className="bg-white/5 border border-white/10 rounded-xl overflow-hidden">
+                            {block.heading && (
+                              <div className="flex items-center gap-3 px-6 py-4 bg-white/5 border-b border-white/10">
+                                {icon && <span className="text-xl">{icon}</span>}
+                                <h3 className="text-lg font-bold text-white">{block.heading}</h3>
+                              </div>
+                            )}
+                            <div className="p-6 space-y-4">
+                              {block.body.map((t, j) => (
+                                <p key={j} className="text-white/70 leading-relaxed">{t}</p>
+                              ))}
+                              {isBulletSection && (
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
+                                  {block.bullets.map((item, j) => (
+                                    <div key={j} className="flex items-start gap-3 bg-white/5 rounded-lg px-4 py-3">
+                                      <span className="text-blue-400 mt-0.5 shrink-0">✦</span>
+                                      <span className="text-white/80 text-sm leading-snug">{item}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          </div>
                         )
-                      })}
-                    </div>
+                      })
+                    })()}
                   </div>
                 </article>
               </ScrollAnimation>

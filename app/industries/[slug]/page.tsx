@@ -47,41 +47,83 @@ export default async function IndustryPage({ params }: { params: Promise<{ slug:
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <ScrollAnimation animation="slideRight" delay={0}>
-                <article className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-8 md:p-12 shadow-xl">
-                  <div className="prose prose-invert max-w-none">
-                    <div className="text-white/70 leading-relaxed">
-                      {industry.content.split('\n\n').map((paragraph, pIndex) => {
-                        if (paragraph.trim().startsWith('**') && paragraph.trim().endsWith('**')) {
+                <article className="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-8 md:p-10 shadow-xl">
+                  <div className="space-y-6">
+                    {(() => {
+                      const blocks: { heading: string | null; body: string[]; bullets: string[] }[] = []
+                      let current: { heading: string | null; body: string[]; bullets: string[] } = { heading: null, body: [], bullets: [] }
+
+                      industry.content.split('\n').forEach((line) => {
+                        const trimmed = line.trim()
+
+                        if (trimmed.startsWith('**') && (trimmed.endsWith('**') || trimmed.endsWith(':**'))) {
+                          if (current.heading !== null || current.body.length || current.bullets.length) blocks.push(current)
+                          current = { heading: trimmed.replace(/\*\*/g, '').replace(/:$/, '').trim(), body: [], bullets: [] }
+                        } else if (trimmed.startsWith('- ')) {
+                          current.bullets.push(trimmed.replace(/^- /, '').trim())
+                        } else if (trimmed.match(/^\d+\.\s/)) {
+                          current.bullets.push(trimmed.replace(/^\d+\.\s*/, '').trim())
+                        } else if (trimmed) {
+                          current.body.push(trimmed)
+                        }
+                      })
+                      if (current.heading !== null || current.body.length || current.bullets.length) blocks.push(current)
+
+                      const sectionIcons: Record<string, string> = {
+                        'Our Expertise': '🏆', 'How We Work': '⚙️', 'Why It Matters': '💡',
+                        'Why Choose Us': '✅', 'What We Do': '🔧', 'Key Benefits': '🎯',
+                        'Key Features': '⭐', 'Our Services': '🛠️', 'Industry Overview': '🌐',
+                        'Our Capabilities': '💪', 'Solutions We Provide': '🔩',
+                      }
+
+                      return blocks.map((block, i) => {
+                        const isCTA = block.heading && (block.heading.startsWith('Reach out') || block.heading.startsWith('Contact us'))
+                        const isBulletSection = block.bullets.length > 0
+                        const icon = block.heading ? (sectionIcons[block.heading] ?? '📌') : null
+
+                        if (isCTA) {
                           return (
-                            <div key={pIndex} className="mt-10 mb-6">
-                              <div className="flex items-center gap-3 mb-4">
-                                <div className="w-1 h-10 bg-gradient-to-b from-blue-400 to-indigo-400 rounded-full"></div>
-                                <h3 className="text-2xl md:text-3xl font-bold text-white">
-                                  {paragraph.replace(/\*\*/g, '').trim()}
-                                </h3>
+                            <div key={i} className="bg-gradient-to-r from-blue-600/20 to-indigo-600/20 border border-blue-400/30 rounded-xl p-6 text-center">
+                              <p className="text-blue-300 font-semibold text-lg">{block.heading}</p>
+                            </div>
+                          )
+                        }
+
+                        if (!block.heading && block.body.length) {
+                          return (
+                            <div key={i} className="text-white/70 leading-relaxed space-y-2">
+                              {block.body.map((t, j) => <p key={j}>{t}</p>)}
+                            </div>
+                          )
+                        }
+
+                        return (
+                          <div key={i} className="bg-white/5 border border-white/10 rounded-xl overflow-hidden">
+                            {block.heading && (
+                              <div className="flex items-center gap-3 px-6 py-4 bg-white/5 border-b border-white/10">
+                                {icon && <span className="text-xl">{icon}</span>}
+                                <h3 className="text-lg font-bold text-white">{block.heading}</h3>
                               </div>
+                            )}
+                            <div className="p-6 space-y-4">
+                              {block.body.map((t, j) => (
+                                <p key={j} className="text-white/70 leading-relaxed">{t}</p>
+                              ))}
+                              {isBulletSection && (
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
+                                  {block.bullets.map((item, j) => (
+                                    <div key={j} className="flex items-start gap-3 bg-white/5 rounded-lg px-4 py-3">
+                                      <span className="text-blue-400 mt-0.5 shrink-0">✦</span>
+                                      <span className="text-white/80 text-sm leading-snug">{item}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
                             </div>
-                          )
-                        }
-                        if (paragraph.trim().startsWith('- ')) {
-                          const items = paragraph.split('\n').filter(line => line.trim().startsWith('- '))
-                          return (
-                            <div key={pIndex} className="bg-white/5 rounded-lg p-6 mb-6 mt-4 border border-white/10">
-                              <ul className="space-y-3">
-                                {items.map((item, iIndex) => (
-                                  <li key={iIndex} className="flex items-start gap-3 text-white/80">
-                                    <span className="text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                                    <span>{item.substring(2).trim()}</span>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-                          )
-                        }
-                        if (paragraph.trim() === '') return null
-                        return <p key={pIndex} className="mb-4">{paragraph.trim()}</p>
-                      })}
-                    </div>
+                          </div>
+                        )
+                      })
+                    })()}
                   </div>
                 </article>
               </ScrollAnimation>

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useState, useEffect, useRef } from 'react'
 import { useSession, signOut } from 'next-auth/react'
+import { useRouter } from 'next/navigation'
 
 interface Category {
   id: string
@@ -11,15 +12,30 @@ interface Category {
   slug: string
 }
 
+interface SearchResult {
+  id: string
+  name: string
+  slug: string
+  type: 'product' | 'service' | 'industry'
+  description?: string
+}
+
 export default function Navbar() {
   const { data: session } = useSession()
+  const router = useRouter()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [categories, setCategories] = useState<Category[]>([])
+  const [searchQuery, setSearchQuery] = useState('')
+  const [searchResults, setSearchResults] = useState<SearchResult[]>([])
+  const [isSearching, setIsSearching] = useState(false)
+  const [showResults, setShowResults] = useState(false)
   const productsDropdownRef = useRef<HTMLDivElement>(null)
+  const searchRef = useRef<HTMLDivElement>(null)
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+  const searchTimeoutRef = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     fetch('/api/categories')
@@ -34,8 +50,11 @@ export default function Navbar() {
         setIsProductsDropdownOpen(false)
         if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current)
       }
+      if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
+        setShowResults(false)
+      }
     }
-    if (isProductsDropdownOpen) document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener('mousedown', handleClickOutside)
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
       if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current)
@@ -47,6 +66,46 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  useEffect(() => {
+    if (!searchQuery.trim()) { setSearchResults([]); setShowResults(false); return }
+    if (searchTimeoutRef.current) clearTimeout(searchTimeoutRef.current)
+    searchTimeoutRef.current = setTimeout(async () => {
+      setIsSearching(true)
+      try {
+        const q = encodeURIComponent(searchQuery.trim())
+        const [products, services, industries] = await Promise.all([
+          fetch(`/api/products?search=${q}`).then(r => r.ok ? r.json() : []),
+          fetch(`/api/services?search=${q}`).then(r => r.ok ? r.json() : []),
+          fetch(`/api/industries?search=${q}`).then(r => r.ok ? r.json() : []),
+        ])
+        const results: SearchResult[] = [
+          ...(Array.isArray(products) ? products : products.products ?? []).slice(0, 3).map((p: SearchResult) => ({ ...p, type: 'product' as const })),
+          ...(Array.isArray(services) ? services : []).slice(0, 3).map((s: SearchResult) => ({ ...s, type: 'service' as const })),
+          ...(Array.isArray(industries) ? industries : []).slice(0, 3).map((i: SearchResult) => ({ ...i, type: 'industry' as const })),
+        ]
+        setSearchResults(results)
+        setShowResults(true)
+      } catch { setSearchResults([]) }
+      finally { setIsSearching(false) }
+    }, 300)
+  }, [searchQuery])
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (searchQuery.trim()) {
+      setShowResults(false)
+      router.push(`/products?search=${encodeURIComponent(searchQuery.trim())}`)
+    }
+  }
+
+  const handleResultClick = (result: SearchResult) => {
+    setShowResults(false)
+    setSearchQuery('')
+    router.push(`/${result.type === 'product' ? 'products' : result.type === 'service' ? 'services' : 'industries'}/${result.slug}`)
+  }
+
+  const typeLabel = { product: '📦 Product', service: '🔧 Service', industry: '🏭 Industry' }
 
   const handleMouseEnter = () => {
     if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current)
@@ -72,6 +131,24 @@ export default function Navbar() {
     setIsProductsDropdownOpen(false)
     if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current)
   }
+
+  const searchInputJSX = (
+    <form onSubmit={handleSearchSubmit} className="relative w-full">
+      <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
+        <svg className="w-4 h-4 text-slate-200/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </span>
+      <input
+        type="text"
+        value={searchQuery}
+        onChange={e => setSearchQuery(e.target.value)}
+        onFocus={() => searchResults.length > 0 && setShowResults(true)}
+        placeholder="Search products, services..."
+        className="w-full pl-9 pr-3 py-2 rounded-full bg-slate-900/70 border border-slate-300/40 text-sm text-white placeholder-slate-200/70 focus:outline-none focus:ring-2 focus:ring-sky-400/80 focus:border-sky-400/80 shadow-sm"
+      />
+    </form>
+  )
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 border-b border-white/10 transition-all duration-300 ${
@@ -100,18 +177,38 @@ export default function Navbar() {
           </Link>
 
           {/* Search (desktop) */}
-          <div className="hidden md:flex flex-1 justify-center">
+          <div className="hidden md:flex flex-1 justify-center" ref={searchRef}>
             <div className="w-full max-w-md relative">
-              <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
-                <svg className="w-4 h-4 text-slate-200/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </span>
-              <input
-                type="text"
-                placeholder="Search..."
-                className="w-full pl-9 pr-3 py-2 rounded-full bg-slate-900/70 border border-slate-300/40 text-sm text-white placeholder-slate-200/70 focus:outline-none focus:ring-2 focus:ring-sky-400/80 focus:border-sky-400/80 shadow-sm"
-              />
+              {searchInputJSX}
+              {/* Results dropdown */}
+              {showResults && (
+                <div className="absolute top-full left-0 right-0 mt-2 bg-slate-950/95 border border-white/20 rounded-2xl shadow-2xl backdrop-blur-xl overflow-hidden z-[200]">
+                  {isSearching ? (
+                    <div className="px-4 py-3 text-sm text-white/50 text-center">Searching...</div>
+                  ) : searchResults.length === 0 ? (
+                    <div className="px-4 py-3 text-sm text-white/50 text-center">No results found</div>
+                  ) : (
+                    <div className="py-2">
+                      {searchResults.map((result) => (
+                        <button key={`${result.type}-${result.id}`} onClick={() => handleResultClick(result)}
+                          className="w-full flex items-start gap-3 px-4 py-2.5 hover:bg-white/10 transition-colors text-left">
+                          <span className="text-xs text-white/40 mt-0.5 shrink-0 w-20">{typeLabel[result.type]}</span>
+                          <div>
+                            <div className="text-sm text-white font-medium">{result.name}</div>
+                            {result.description && <div className="text-xs text-white/50 truncate max-w-xs">{result.description}</div>}
+                          </div>
+                        </button>
+                      ))}
+                      <div className="border-t border-white/10 mt-1 pt-1">
+                        <button onClick={handleSearchSubmit as unknown as React.MouseEventHandler}
+                          className="w-full px-4 py-2 text-xs text-sky-400 hover:text-sky-300 text-center transition-colors">
+                          See all results for &quot;{searchQuery}&quot; →
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           </div>
 
@@ -183,18 +280,28 @@ export default function Navbar() {
 
         {/* Mobile search bar */}
         {isSearchOpen && (
-          <div className="md:hidden pb-3 px-1">
+          <div className="md:hidden pb-3 px-1" ref={searchRef}>
             <div className="relative mt-1">
-              <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
-                <svg className="w-4 h-4 text-slate-200/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </span>
-              <input
-                type="text"
-                placeholder="Search..."
-                className="w-full pl-9 pr-3 py-2 rounded-full bg-slate-900/80 border border-slate-300/40 text-sm text-white placeholder-slate-200/70 focus:outline-none focus:ring-2 focus:ring-sky-400/80"
-              />
+              {searchInputJSX}
+              {showResults && (
+                <div className="absolute top-full left-0 right-0 mt-2 bg-slate-950/95 border border-white/20 rounded-2xl shadow-2xl backdrop-blur-xl overflow-hidden z-[200]">
+                  {isSearching ? (
+                    <div className="px-4 py-3 text-sm text-white/50 text-center">Searching...</div>
+                  ) : searchResults.length === 0 ? (
+                    <div className="px-4 py-3 text-sm text-white/50 text-center">No results found</div>
+                  ) : (
+                    <div className="py-2">
+                      {searchResults.map((result) => (
+                        <button key={`${result.type}-${result.id}`} onClick={() => handleResultClick(result)}
+                          className="w-full flex items-start gap-3 px-4 py-2.5 hover:bg-white/10 transition-colors text-left">
+                          <span className="text-xs text-white/40 mt-0.5 shrink-0 w-20">{typeLabel[result.type]}</span>
+                          <div className="text-sm text-white font-medium">{result.name}</div>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         )}

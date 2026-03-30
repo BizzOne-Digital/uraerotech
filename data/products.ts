@@ -7,6 +7,7 @@ export const products = [
     price: 12500,
     stock: 5,
     image: '/products/1.jpeg',
+    detail: 'Precision-engineered from aerospace-grade aluminum alloy for superior strength-to-weight ratio.\nFeatures vibration-dampening technology that significantly reduces engine noise and fatigue on surrounding structures.\nFully certified to FAA and EASA standards with complete traceability documentation included.',
   },
   {
     name: 'Aviation Torque Wrench Set',
@@ -16,6 +17,7 @@ export const products = [
     price: 850,
     stock: 12,
     image: '/products/2.jpeg',
+    detail: 'Includes three interchangeable wrenches covering torque ranges from 10 to 250 ft-lbs for versatile application.\nFeatures digital readout with audible alert and angle measurement for precision fastening on critical aircraft components.\nComes with calibration certificate and rugged carrying case for secure storage and transport.',
   },
   {
     name: 'Aircraft Landing Gear Assembly',
@@ -25,6 +27,7 @@ export const products = [
     price: 45000,
     stock: 2,
     image: '/products/3.jpeg',
+    detail: 'Complete assembly includes main strut, torque links, and integrated hydraulic lines pre-filled and tested.\nManufactured from high-strength steel alloy with corrosion-resistant coating for extended service life in harsh environments.\nIncludes all mounting hardware and detailed installation instructions with torque specifications.',
   },
   {
     name: 'Composite Repair Kit',
@@ -34,6 +37,7 @@ export const products = [
     price: 1200,
     stock: 8,
     image: '/products/4.jpeg',
+    detail: 'Contains carbon fiber patches, epoxy resin systems, and vacuum bagging materials for structural repairs.\nIncludes temperature-controlled curing blankets and thermocouples for proper cure cycle management.\nComes with comprehensive repair manual covering common damage scenarios and step-by-step procedures.',
   },
   {
     name: 'Hydraulic Pump Assembly',
@@ -43,6 +47,7 @@ export const products = [
     price: 8500,
     stock: 4,
     image: '/products/5.jpeg',
+    detail: 'Variable displacement pump delivering up to 3000 PSI for demanding hydraulic system requirements.\nFeatures built-in pressure relief valve and thermal protection for safe operation under all conditions.\nComplete with mounting bracket and O-ring kit for straightforward installation.',
   },
   {
     name: 'Fuel Filter Assembly',
@@ -52,6 +57,7 @@ export const products = [
     price: 450,
     stock: 15,
     image: '/products/6.jpeg',
+    detail: 'High-capacity filter element captures contaminants down to 10 microns for clean fuel delivery.\nFeatures differential pressure indicator for timely maintenance alerts and filter replacement scheduling.\nIncludes mounting hardware and replacement gasket for simplified installation.',
   },
   {
     name: 'Wing Spar Assembly',
@@ -61,6 +67,7 @@ export const products = [
     price: 18500,
     stock: 3,
     image: '/products/7.jpeg',
+    detail: 'Machined from single-piece aluminum billet for maximum structural integrity and reduced weight.\nFeatures integrated lightning protection system and corrosion-inhibiting surface treatment.\nComes with full engineering documentation and NDT certification for quality assurance.',
   },
   {
     name: 'Fuselage Frame Section',
@@ -70,6 +77,7 @@ export const products = [
     price: 12500,
     stock: 4,
     image: '/products/8.jpeg',
+    detail: 'CNC-machined from aerospace aluminum with precision tolerances for perfect fit with existing structures.\nFeatures pre-drilled fastener holes and indexed mounting points to simplify installation.\nIncludes corrosion-resistant primer coating and complete certification documentation.',
   },
   {
     name: 'Bulkhead Assembly',
@@ -79,6 +87,7 @@ export const products = [
     price: 9800,
     stock: 6,
     image: '/products/9.jpeg',
+    detail: 'Composite construction provides exceptional strength while reducing overall aircraft weight.\nFeatures pre-installed mounting brackets and cable routing channels for simplified systems integration.\nFire-resistant materials meet all FAR 25.853 flammability requirements.',
   },
   {
     name: 'Stringer Assembly Kit',
@@ -88,6 +97,7 @@ export const products = [
     price: 6500,
     stock: 8,
     image: '/products/10.jpeg',
+    detail: 'Complete set of longitudinal stringers pre-cut to standard fuselage sections for efficient installation.\nFeatures optimized cross-section design for maximum stiffness with minimal weight penalty.\nIncludes all attachment clips, fasteners, and detailed installation guide.',
   },
   {
     name: 'Rib Assembly Set',
@@ -97,6 +107,7 @@ export const products = [
     price: 4200,
     stock: 10,
     image: '/products/11.jpeg',
+    detail: 'Set of precision-formed wing ribs with lightening holes for optimized strength-to-weight ratio.\nFeatures pre-punched rivet holes for accurate alignment and faster assembly.\nIncludes all stiffeners and attachment angles needed for complete installation.',
   },
   {
     name: 'Skin Panel Section',
@@ -106,6 +117,7 @@ export const products = [
     price: 3500,
     stock: 12,
     image: '/products/12.jpeg',
+    detail: 'Manufactured from clad aluminum alloy for superior corrosion resistance and durability.\nFeatures pre-formed curvature to match aircraft contour for simplified installation.\nIncludes protective coating and complete dimensional certification documentation.',
   },
   {
     name: 'Frame Reinforcement Kit',
@@ -115,6 +127,7 @@ export const products = [
     price: 2800,
     stock: 15,
     image: '/products/13.jpeg',
+    detail: 'Complete reinforcement package for critical structural areas requiring additional support.\nFeatures pre-fabricated doubler plates and splice angles for quick installation.\nIncludes engineering approval documentation and detailed installation instructions.',
   },
   {
     name: 'Structural Bracket Set',
@@ -124,6 +137,7 @@ export const products = [
     price: 1500,
     stock: 20,
     image: '/products/14.jpeg',
+    detail: 'Comprehensive set of L-brackets, T-brackets, and gussets for various mounting configurations.\nManufactured from heat-treated aluminum for maximum strength and fatigue resistance.\nIncludes all mounting hardware and torque specifications for proper installation.',
   },
   {
     name: 'Beam Assembly',
@@ -133,6 +147,7 @@ export const products = [
     price: 7200,
     stock: 7,
     image: '/products/15.jpeg',
+    detail: 'I-beam design optimized for load distribution in primary structural applications.\nFeatures integral mounting points and pre-drilled fastener patterns for simplified attachment.\nIncludes full load-test certification and material traceability documentation.',
   },
   {
     name: 'Structural Repair Patch',
@@ -142,6 +157,7 @@ export const products = [
     price: 850,
     stock: 25,
     image: '/products/16.jpeg',
+    detail: 'Pre-cured composite patches in various sizes for immediate application on damaged structures.\nIncludes aerospace-grade epoxy adhesive with extended working time and room-temperature cure.\nComes with surface preparation materials and detailed repair procedure guide.',
   },
   {
     name: 'Turbine Blade Set',
@@ -151,6 +167,7 @@ export const products = [
     price: 25000,
     stock: 2,
     image: '/products/17.jpeg',
+    detail: 'Set of 24 precision-cast nickel-based superalloy blades for high-pressure turbine section.\nFeatures advanced cooling channel design for extended service life in extreme temperatures.\nIncludes individual inspection certification and dimensional verification documentation.',
   },
   {
     name: 'Compressor Assembly',
@@ -160,6 +177,7 @@ export const products = [
     price: 18500,
     stock: 3,
     image: '/products/18.jpeg',
+    detail: 'Multi-stage axial compressor assembly with precision-machined blades and vanes for optimal airflow.\nFeatures titanium alloy construction for lightweight durability and corrosion resistance.\nIncludes complete assembly balancing certification and installation hardware.',
   },
   {
     name: 'Combustion Chamber',
@@ -169,6 +187,7 @@ export const products = [
     price: 22000,
     stock: 2,
     image: '/products/19.jpeg',
+    detail: 'Annular combustion chamber with advanced cooling system for uniform temperature distribution.\nConstructed from nickel-based superalloys with thermal barrier coating for extended durability.\nIncludes fuel nozzle mounting hardware and full inspection certification.',
   },
   {
     name: 'Fuel Injector Nozzle',
@@ -178,6 +197,7 @@ export const products = [
     price: 1200,
     stock: 15,
     image: '/products/20.jpeg',
+    detail: 'Precision-machined fuel injector with optimized spray pattern for complete combustion.\nFeatures self-cleaning design to prevent carbon buildup and maintain performance.\nIncludes flow-test certification and replacement O-rings for installation.',
   },
   {
     name: 'Oil Filter Assembly',
@@ -187,6 +207,7 @@ export const products = [
     price: 650,
     stock: 20,
     image: '/products/21.jpeg',
+    detail: 'High-capacity filter assembly with bypass valve for continuous oil flow during cold starts.\nFeatures magnetic particle trap for capturing ferrous contaminants and extending engine life.\nIncludes filter element and complete installation gasket kit.',
   },
   {
     name: 'Igniter Plug Set',
@@ -196,6 +217,7 @@ export const products = [
     price: 850,
     stock: 18,
     image: '/products/22.jpeg',
+    detail: 'Set of two high-energy igniter plugs with durable electrode design for extended service life.\nFeatures corrosion-resistant housing and reliable spark gap for consistent ignition performance.\nIncludes anti-seize compound and installation torque specifications.',
   },
   {
     name: 'Exhaust Nozzle',
@@ -205,6 +227,7 @@ export const products = [
     price: 4500,
     stock: 8,
     image: '/products/23.jpeg',
+    detail: 'Variable area exhaust nozzle with precision-actuated convergent-divergent sections.\nConstructed from high-temperature alloys with thermal barrier coating for durability.\nIncludes actuator linkage assembly and installation hardware.',
   },
   {
     name: 'Bearing Assembly',
@@ -214,6 +237,7 @@ export const products = [
     price: 3200,
     stock: 12,
     image: '/products/24.jpeg',
+    detail: 'Precision ball bearing assembly with high-speed cage design for turbine shaft support.\nFeatures advanced lubrication channels and heat-resistant materials for extended service life.\nIncludes installation tooling and vibration-test certification.',
   },
   {
     name: 'Gearbox Assembly',
@@ -223,6 +247,7 @@ export const products = [
     price: 15000,
     stock: 4,
     image: '/products/25.jpeg',
+    detail: 'Accessory gearbox with integrated mounting pads for engine-driven components.\nFeatures precision-ground helical gears for quiet, efficient power transmission.\nIncludes all seals, bearings, and installation gaskets for complete assembly.',
   },
   {
     name: 'Engine Mount Bracket',
@@ -232,6 +257,7 @@ export const products = [
     price: 2800,
     stock: 10,
     image: '/products/26.jpeg',
+    detail: 'Forged steel mounting bracket with elastomeric vibration isolators for reduced engine vibration transfer.\nFeatures precision-machined attachment points for accurate engine alignment.\nIncludes all mounting hardware and load-test certification documentation.',
   },
   {
     name: 'Flight Management System',
@@ -241,6 +267,7 @@ export const products = [
     price: 45000,
     stock: 1,
     image: '/products/27.jpeg',
+    detail: 'Integrated flight management computer with GPS, VOR, and ILS navigation capabilities.\nFeatures large-format color display with intuitive interface and real-time flight planning.\nIncludes navigation database subscription and complete installation wiring harness.',
   },
   {
     name: 'Autopilot Control Unit',
@@ -250,6 +277,7 @@ export const products = [
     price: 32000,
     stock: 2,
     image: '/products/28.jpeg',
+    detail: 'Digital autopilot system with altitude hold, heading select, and navigation tracking modes.\nFeatures integrated envelope protection and automatic trim control for stable flight.\nIncludes mode controller panel and all necessary installation components.',
   },
   {
     name: 'GPS Navigation System',
@@ -259,6 +287,7 @@ export const products = [
     price: 18500,
     stock: 3,
     image: '/products/29.jpeg',
+    detail: 'Multi-constellation GPS receiver with WAAS/SBAS capability for precision approach operations.\nFeatures high-sensitivity antenna and fast satellite acquisition for reliable navigation.\nIncludes mounting tray, connector kit, and installation manual.',
   },
   {
     name: 'Radio Transceiver',
@@ -268,6 +297,7 @@ export const products = [
     price: 8500,
     stock: 5,
     image: '/products/30.jpeg',
+    detail: 'VHF communication transceiver with 8.33 kHz channel spacing for worldwide compatibility.\nFeatures built-in intercom and audio panel functionality for simplified installation.\nIncludes microphone, headset adapter, and mounting hardware.',
   },
   {
     name: 'Weather Radar Display',
@@ -277,6 +307,7 @@ export const products = [
     price: 28000,
     stock: 2,
     image: '/products/31.jpeg',
+    detail: 'High-resolution color display with advanced weather detection and turbulence identification.\nFeatures automatic gain control and predictive wind shear detection for enhanced safety.\nIncludes radar processor unit and antenna control interface.',
   },
   {
     name: 'Transponder Unit',
@@ -286,6 +317,7 @@ export const products = [
     price: 4200,
     stock: 8,
     image: '/products/32.jpeg',
+    detail: 'Mode S transponder with ADS-B Out capability for NextGen airspace compliance.\nFeatures altitude encoder interface and automatic pressure altitude reporting.\nIncludes mounting rack, connector kit, and installation certification.',
   },
   {
     name: 'Instrument Display Panel',
@@ -295,6 +327,7 @@ export const products = [
     price: 12500,
     stock: 4,
     image: '/products/33.jpeg',
+    detail: 'High-brightness LCD display panel with configurable primary flight and navigation instruments.\nFeatures sunlight-readable screen and night-vision compatible backlighting.\nIncludes bezel assembly, mounting hardware, and interface connectors.',
   },
   {
     name: 'Circuit Breaker Panel',
@@ -304,6 +337,7 @@ export const products = [
     price: 2800,
     stock: 12,
     image: '/products/34.jpeg',
+    detail: 'Pre-wired circuit breaker panel with clearly labeled push-to-reset breakers for essential systems.\nFeatures LED indication for tripped condition and integrated bus bars for simplified wiring.\nIncludes mounting frame and complete electrical schematic documentation.',
   },
   {
     name: 'Data Recorder Unit',
@@ -313,6 +347,7 @@ export const products = [
     price: 15000,
     stock: 3,
     image: '/products/35.jpeg',
+    detail: 'Crash-survivable flight data recorder with 25-hour recording capacity for post-flight analysis.\nFeatures underwater acoustic beacon for rapid recovery after water impact.\nIncludes mounting bracket and data download interface kit.',
   },
   {
     name: 'Antenna Assembly',
@@ -322,6 +357,7 @@ export const products = [
     price: 1800,
     stock: 15,
     image: '/products/36.jpeg',
+    detail: 'Blade-type VHF communication antenna with aerodynamic design for minimal drag.\nFeatures corrosion-resistant construction and wide bandwidth for consistent performance.\nIncludes mounting hardware, coaxial connector, and installation instructions.',
   },
   {
     name: 'Main Landing Gear Strut',
@@ -331,6 +367,7 @@ export const products = [
     price: 55000,
     stock: 1,
     image: '/products/37.jpeg',
+    detail: 'Oleo-pneumatic strut assembly with precision-machined internal metering for smooth energy absorption.\nFeatures high-strength steel construction with corrosion-resistant chrome plating on sliding surfaces.\nIncludes torque links, alignment guides, and complete seal kit for installation.',
   },
   {
     name: 'Nose Landing Gear Assembly',
@@ -340,6 +377,7 @@ export const products = [
     price: 35000,
     stock: 2,
     image: '/products/38.jpeg',
+    detail: 'Complete nose gear assembly with integrated steering actuator and shimmy damper.\nFeatures centering cam mechanism for proper gear alignment during retraction.\nIncludes all hydraulic lines, electrical harnesses, and installation hardware.',
   },
   {
     name: 'Landing Gear Actuator',
@@ -349,6 +387,7 @@ export const products = [
     price: 12500,
     stock: 4,
     image: '/products/39.jpeg',
+    detail: 'Hydraulic actuator with internal locking mechanism for secure gear position maintenance.\nFeatures position feedback sensors for accurate gear status indication in cockpit.\nIncludes mounting brackets, hydraulic fittings, and test certification.',
   },
   {
     name: 'Wheel Assembly Set',
@@ -358,6 +397,7 @@ export const products = [
     price: 8500,
     stock: 6,
     image: '/products/40.jpeg',
+    detail: 'Set of two main wheels with removable flanges for tire replacement and brake access.\nFeatures forged aluminum construction with integral bearing races and thermal barrier coating.\nIncludes bearings, seals, and installation torque specifications.',
   },
   {
     name: 'Brake Disc Set',
@@ -367,6 +407,7 @@ export const products = [
     price: 4200,
     stock: 10,
     image: '/products/41.jpeg',
+    detail: 'Set of carbon brake discs with multiple rotor and stator configuration for maximum braking efficiency.\nFeatures wear indicator grooves for easy condition monitoring and replacement planning.\nIncludes heat shield assembly and installation guide with torque values.',
   },
   {
     name: 'Shock Absorber Unit',
@@ -376,6 +417,7 @@ export const products = [
     price: 6800,
     stock: 8,
     image: '/products/42.jpeg',
+    detail: 'Independent shock absorber unit with adjustable damping characteristics for landing condition optimization.\nFeatures nitrogen-charged design with internal metering pin for progressive damping.\nIncludes charging valve, service fittings, and maintenance manual.',
   },
   {
     name: 'Gear Door Actuator',
@@ -385,6 +427,7 @@ export const products = [
     price: 3200,
     stock: 12,
     image: '/products/43.jpeg',
+    detail: 'Hydraulic actuator with sequencing mechanism for coordinated door and gear movement.\nFeatures integrated door position sensors for accurate indication and system logic.\nIncludes mounting hardware, hydraulic fittings, and seal replacement kit.',
   },
   {
     name: 'Tire Set',
@@ -394,6 +437,7 @@ export const products = [
     price: 2800,
     stock: 15,
     image: '/products/44.jpeg',
+    detail: 'Set of four aircraft tires with reinforced sidewalls and high-tread rubber compound.\nFeatures retread-ready casing design for extended service life and cost savings.\nIncludes inflation valves, protective covers, and installation pressure specifications.',
   },
   {
     name: 'Landing Gear Lock Pin',
@@ -403,6 +447,7 @@ export const products = [
     price: 450,
     stock: 25,
     image: '/products/45.jpeg',
+    detail: 'Red anodized aluminum lock pin with removable flag for positive visual indication during maintenance.\nFeatures precision-machined shaft that fits securely into locking mechanism for safety.\nIncludes storage pouch and inspection documentation for maintenance tracking.',
   },
   {
     name: 'Gear Position Sensor',
@@ -412,6 +457,7 @@ export const products = [
     price: 1200,
     stock: 18,
     image: '/products/46.jpeg',
+    detail: 'Proximity sensor assembly with hermetically sealed switching elements for reliable operation.\nFeatures dual-channel design for redundancy and failsafe gear position indication.\nIncludes mounting bracket, electrical connector, and calibration instructions.',
   },
   {
     name: 'Passenger Seat Assembly',
@@ -421,6 +467,7 @@ export const products = [
     price: 2800,
     stock: 20,
     image: '/products/47.jpeg',
+    detail: 'Economy class seat assembly with ergonomic design and adjustable recline function.\nFeatures lightweight composite frame and fire-blocking foam for safety compliance.\nIncludes seat belt assembly, literature pocket, and track-mounting hardware.',
   },
   {
     name: 'Overhead Bin Assembly',
@@ -430,6 +477,7 @@ export const products = [
     price: 4200,
     stock: 15,
     image: '/products/48.jpeg',
+    detail: 'Full-size overhead stowage bin with gas-spring assisted opening for smooth operation.\nFeatures composite construction with integrated lighting and passenger service unit mounting.\nIncludes latching mechanism, installation brackets, and trim panels.',
   },
   {
     name: 'Cabin Lighting System',
@@ -439,6 +487,7 @@ export const products = [
     price: 3500,
     stock: 12,
     image: '/products/49.jpeg',
+    detail: 'Full LED lighting system with programmable color temperature and dimming capabilities.\nFeatures individual light control for reading lights and wash lighting for passenger convenience.\nIncludes control modules, wiring harness, and installation brackets.',
   },
   {
     name: 'Galley Unit',
@@ -448,6 +497,7 @@ export const products = [
     price: 12500,
     stock: 5,
     image: '/products/50.jpeg',
+    detail: 'Complete galley unit with integrated water system, waste management, and electrical outlets.\nFeatures lightweight composite construction with modular inserts for flexible configuration.\nIncludes mounting hardware, water lines, and electrical connections.',
   },
   {
     name: 'Lavatory Assembly',
@@ -457,6 +507,7 @@ export const products = [
     price: 18500,
     stock: 3,
     image: '/products/51.jpeg',
+    detail: 'Self-contained lavatory unit with vacuum waste system, water supply, and vanity fixtures.\nFeatures composite construction with easy-clean surfaces and integrated ventilation.\nIncludes toilet assembly, sink, faucet, and all necessary plumbing connections.',
   },
   {
     name: 'Carpet Set',
@@ -466,6 +517,7 @@ export const products = [
     price: 2800,
     stock: 10,
     image: '/products/52.jpeg',
+    detail: 'Complete cabin carpet set cut to fit specific aircraft configurations with precise dimensions.\nFeatures fire-retardant material with stain-resistant treatment for easy maintenance.\nIncludes underlayment padding, seam tape, and installation instructions.',
   },
   {
     name: 'Window Shade Assembly',
@@ -475,6 +527,7 @@ export const products = [
     price: 850,
     stock: 30,
     image: '/products/53.jpeg',
+    detail: 'Manual window shade assembly with smooth sliding mechanism and positive position retention.\nFeatures fire-resistant material and scratch-resistant finish for durability.\nIncludes mounting frame, shade panel, and installation hardware.',
   },
   {
     name: 'Cabin Panel Set',
@@ -484,6 +537,7 @@ export const products = [
     price: 4500,
     stock: 8,
     image: '/products/54.jpeg',
+    detail: 'Complete set of sidewall panels, ceiling panels, and window reveals for cabin interior.\nFeatures composite construction with decorative laminate finish and sound-dampening properties.\nIncludes mounting clips, fasteners, and trim components for complete installation.',
   },
   {
     name: 'Seat Belt Assembly',
@@ -493,6 +547,7 @@ export const products = [
     price: 450,
     stock: 50,
     image: '/products/55.jpeg',
+    detail: 'Two-point seat belt assembly with adjustable strap and quick-release buckle mechanism.\nFeatures certified webbing material and corrosion-resistant hardware for safety compliance.\nIncludes shoulder harness attachment points and installation instructions.',
   },
   {
     name: 'Cabin Air Vent',
@@ -502,6 +557,7 @@ export const products = [
     price: 320,
     stock: 40,
     image: '/products/56.jpeg',
+    detail: 'Directional air vent with adjustable flow control and positive shut-off capability.\nFeatures durable construction with smooth operation and easy cleaning design.\nIncludes mounting bezel, backplate, and installation hardware.',
   },
   {
     name: 'Rivet Gun Set',
@@ -511,6 +567,7 @@ export const products = [
     price: 850,
     stock: 15,
     image: '/products/57.jpeg',
+    detail: 'Pneumatic rivet gun with multiple head sizes and interchangeable nosepieces for various rivet types.\nFeatures ergonomic grip design and adjustable power control for precision installation.\nIncludes rivet set assortment, bucking bars, and carrying case.',
   },
   {
     name: 'Sheet Metal Bender',
@@ -520,6 +577,7 @@ export const products = [
     price: 4200,
     stock: 6,
     image: '/products/58.jpeg',
+    detail: 'Manual sheet metal brake with capacity for up to 24-inch width and 0.063-inch aluminum.\nFeatures precision angle adjustment and positive clamping for repeatable bends.\nIncludes forming dies, angle guides, and calibration tool.',
   },
   {
     name: 'Composite Repair Kit Advanced',
@@ -529,6 +587,7 @@ export const products = [
     price: 2800,
     stock: 8,
     image: '/products/59.jpeg',
+    detail: 'Professional composite repair system including prepreg materials, vacuum pump, and heat blanket.\nFeatures temperature controller with thermocouple feedback for precise cure cycle management.\nIncludes consumables, release films, and detailed repair procedure guide.',
   },
   {
     name: 'Hydraulic Test Bench',
@@ -538,6 +597,7 @@ export const products = [
     price: 18500,
     stock: 2,
     image: '/products/60.jpeg',
+    detail: 'Mobile hydraulic test unit with 5000 PSI capacity and digital pressure and flow monitoring.\nFeatures adjustable flow control and built-in filtration for clean test fluid.\nIncludes test hoses, adapter fittings, and calibration certification.',
   },
   {
     name: 'Wire Crimping Tool Set',
@@ -547,6 +607,7 @@ export const products = [
     price: 650,
     stock: 20,
     image: '/products/61.jpeg',
+    detail: 'Professional wire crimping kit with interchangeable dies for various connector types and sizes.\nFeatures ratchet mechanism for consistent crimp pressure and quality assurance.\nIncludes terminal assortment, wire stripper, and calibration tool.',
   },
   {
     name: 'Borescope Inspection Kit',
@@ -556,6 +617,7 @@ export const products = [
     price: 8500,
     stock: 4,
     image: '/products/62.jpeg',
+    detail: 'High-definition articulating borescope with 360-degree tip articulation and video recording capability.\nFeatures LED illumination and high-resolution camera for detailed internal inspections.\nIncludes interchangeable probes, accessories, and storage case.',
   },
   {
     name: 'Calibration Equipment Set',
@@ -565,6 +627,7 @@ export const products = [
     price: 12500,
     stock: 3,
     image: '/products/63.jpeg',
+    detail: 'Complete calibration kit including digital multimeter, pressure calibrator, and temperature reference.\nFeatures NIST-traceable accuracy and data logging capabilities for compliance documentation.\nIncludes test leads, adapters, and carrying case with calibration certificates.',
   },
   {
     name: 'Safety Harness Set',
@@ -574,6 +637,7 @@ export const products = [
     price: 1200,
     stock: 12,
     image: '/products/64.jpeg',
+    detail: 'Full-body safety harness with multiple attachment points for fall protection during maintenance.\nFeatures adjustable straps for comfortable fit and quick-release buckles for emergency egress.\nIncludes lanyard, shock absorber, and inspection documentation.',
   },
   {
     name: 'Measuring Tool Kit',
@@ -583,6 +647,7 @@ export const products = [
     price: 1800,
     stock: 10,
     image: '/products/65.jpeg',
+    detail: 'Professional measurement set including digital calipers, micrometers, and depth gauges.\nFeatures precision-ground measurement surfaces and digital readout for accurate readings.\nIncludes calibration standards, protective case, and calibration certificates.',
   },
   {
     name: 'Cleaning Solution Set',
@@ -592,6 +657,7 @@ export const products = [
     price: 450,
     stock: 25,
     image: '/products/66.jpeg',
+    detail: 'Complete cleaning chemical set including degreaser, corrosion inhibitor, and exterior cleaner.\nFeatures environmentally friendly formulations approved for aircraft surface applications.\nIncludes spray bottles, application tools, and safety data sheets.',
   },
   {
     name: 'Aircraft Bolt Set',
@@ -601,6 +667,7 @@ export const products = [
     price: 850,
     stock: 30,
     image: '/products/67.jpeg',
+    detail: 'Assorted bolt kit containing AN, NAS, and MS specification bolts in common sizes and lengths.\nFeatures cadmium-plated finish for corrosion resistance and thread-locking patches on select sizes.\nIncludes organized storage case with size labeling for quick identification.',
   },
   {
     name: 'Rivet Assortment Kit',
@@ -610,6 +677,7 @@ export const products = [
     price: 650,
     stock: 25,
     image: '/products/68.jpeg',
+    detail: 'Complete rivet assortment including solid rivets, blind rivets, and specialty fasteners.\nFeatures aluminum, steel, and monel construction for various strength and corrosion requirements.\nIncludes organized compartment case with rivet identification chart.',
   },
   {
     name: 'Screw Set Collection',
@@ -619,6 +687,7 @@ export const products = [
     price: 450,
     stock: 35,
     image: '/products/69.jpeg',
+    detail: 'Comprehensive screw kit with machine screws, self-tapping screws, and panel screws in various head styles.\nFeatures corrosion-resistant finishes including cadmium, zinc, and stainless steel options.\nIncludes thread gauges and organized storage with size identification.',
   },
   {
     name: 'Washer Assortment',
@@ -628,6 +697,7 @@ export const products = [
     price: 280,
     stock: 50,
     image: '/products/70.jpeg',
+    detail: 'Assorted washer kit including flat washers, lock washers, and special purpose washers.\nFeatures steel, stainless steel, and nylon construction for various applications.\nIncludes compartment case with size identification and application guide.',
   },
   {
     name: 'Nut Collection Set',
@@ -637,6 +707,7 @@ export const products = [
     price: 550,
     stock: 40,
     image: '/products/71.jpeg',
+    detail: 'Comprehensive nut assortment including self-locking, castle, shear, and wing nuts.\nFeatures precision-threaded construction with corrosion-resistant finish for durability.\nIncludes organized storage with thread size identification and torque specifications.',
   },
   {
     name: 'Pin Set Assortment',
@@ -646,6 +717,7 @@ export const products = [
     price: 320,
     stock: 45,
     image: '/products/72.jpeg',
+    detail: 'Assorted pin kit including cotter pins, clevis pins, taper pins, and roll pins.\nFeatures steel and stainless steel construction with various diameters and lengths.\nIncludes compartment case with size identification and application reference.',
   },
   {
     name: 'Clamp Set',
@@ -655,6 +727,7 @@ export const products = [
     price: 680,
     stock: 20,
     image: '/products/73.jpeg',
+    detail: 'Assorted clamp kit including Adel clamps, hose clamps, and cable clamps for system installation.\nFeatures corrosion-resistant materials with rubber cushioning for vibration isolation.\nIncludes organized case with size identification and application guide.',
   },
   {
     name: 'Bracket Hardware Kit',
@@ -664,6 +737,7 @@ export const products = [
     price: 850,
     stock: 18,
     image: '/products/74.jpeg',
+    detail: 'Complete mounting hardware kit including brackets, standoffs, and mounting plates.\nFeatures aluminum and steel construction with corrosion-resistant finishes for durability.\nIncludes fasteners, spacers, and installation instructions for various applications.',
   },
   {
     name: 'Retaining Ring Set',
@@ -673,6 +747,7 @@ export const products = [
     price: 420,
     stock: 30,
     image: '/products/75.jpeg',
+    detail: 'Assorted retaining ring kit including internal and external rings in various sizes.\nFeatures high-carbon steel construction with black oxide finish for corrosion protection.\nIncludes ring pliers and storage case with size identification chart.',
   },
   {
     name: 'Threaded Insert Set',
@@ -682,6 +757,7 @@ export const products = [
     price: 750,
     stock: 22,
     image: '/products/76.jpeg',
+    detail: 'Complete threaded insert kit with Heli-Coil style inserts for thread repair and reinforcement.\nFeatures stainless steel construction with installation tools and break-off tangs.\nIncludes drill bits, taps, and installation instructions for common thread sizes.',
   },
   {
     name: 'Hydraulic Pump Unit',
@@ -691,6 +767,7 @@ export const products = [
     price: 12500,
     stock: 4,
     image: '/products/77.jpeg',
+    detail: 'Engine-driven hydraulic pump with 3000 PSI capacity for primary hydraulic systems.\nFeatures variable displacement design with pressure compensation for efficient operation.\nIncludes mounting flange, drive coupling, and installation gaskets.',
   },
   {
     name: 'Hydraulic Cylinder',
@@ -700,6 +777,7 @@ export const products = [
     price: 8500,
     stock: 6,
     image: '/products/78.jpeg',
+    detail: 'Double-acting hydraulic cylinder with precision-ground bore and chromed piston rod.\nFeatures integrated cushioning at end of stroke for smooth operation and reduced shock.\nIncludes mounting clevis, hydraulic fittings, and seal replacement kit.',
   },
   {
     name: 'Hydraulic Filter Assembly',
@@ -709,6 +787,7 @@ export const products = [
     price: 1200,
     stock: 15,
     image: '/products/79.jpeg',
+    detail: 'In-line hydraulic filter assembly with 3-micron absolute filtration rating for system protection.\nFeatures differential pressure indicator for filter condition monitoring and maintenance scheduling.\nIncludes replacement element and mounting bracket for simplified installation.',
   },
   {
     name: 'Hydraulic Reservoir',
@@ -718,6 +797,7 @@ export const products = [
     price: 4200,
     stock: 8,
     image: '/products/80.jpeg',
+    detail: 'Pressurized hydraulic reservoir with sight gauge and fluid level indication for system monitoring.\nFeatures integrated return line filtration and air separation for clean fluid supply.\nIncludes mounting brackets, filler cap assembly, and fluid sampling port.',
   },
   {
     name: 'Hydraulic Valve Assembly',
@@ -727,6 +807,7 @@ export const products = [
     price: 6800,
     stock: 5,
     image: '/products/81.jpeg',
+    detail: 'Servo-controlled hydraulic valve with precise metering for actuator positioning applications.\nFeatures redundant solenoids and position feedback for failsafe operation.\nIncludes electrical connector, mounting base, and test certification.',
   },
   {
     name: 'Hydraulic Hose Set',
@@ -736,6 +817,7 @@ export const products = [
     price: 2800,
     stock: 12,
     image: '/products/82.jpeg',
+    detail: 'Complete set of hydraulic hoses with pre-installed end fittings for system installation.\nFeatures teflon-lined hose construction with stainless steel braid for high-pressure service.\nIncludes hose clamps, protective sleeves, and routing instructions.',
   },
   {
     name: 'Hydraulic Fitting Kit',
@@ -745,6 +827,7 @@ export const products = [
     price: 850,
     stock: 20,
     image: '/products/83.jpeg',
+    detail: 'Assorted hydraulic fitting kit including elbows, tees, adapters, and couplings in common sizes.\nFeatures steel and stainless steel construction with flare and O-ring boss configurations.\nIncludes organized storage case with size identification and torque specifications.',
   },
   {
     name: 'Hydraulic Accumulator',
@@ -754,6 +837,7 @@ export const products = [
     price: 5500,
     stock: 7,
     image: '/products/84.jpeg',
+    detail: 'Piston-type hydraulic accumulator with nitrogen pre-charge for pressure surge absorption.\nFeatures high-pressure capability and integrated charging valve for serviceability.\nIncludes mounting clamp, charging assembly, and pressure test port.',
   },
   {
     name: 'Hydraulic Seal Kit',
@@ -763,6 +847,7 @@ export const products = [
     price: 650,
     stock: 25,
     image: '/products/85.jpeg',
+    detail: 'Complete seal replacement kit for hydraulic actuators and cylinders including O-rings and backup rings.\nFeatures fluorocarbon elastomer materials compatible with MIL-PRF-83282 hydraulic fluid.\nIncludes installation tools and lubrication for proper seal installation.',
   },
   {
     name: 'Hydraulic Pressure Gauge',
@@ -772,6 +857,7 @@ export const products = [
     price: 450,
     stock: 30,
     image: '/products/86.jpeg',
+    detail: 'Liquid-filled pressure gauge with 0-5000 PSI range for accurate system pressure indication.\nFeatures stainless steel case and corrosion-resistant internals for harsh environments.\nIncludes panel mounting hardware, snubber valve, and calibration certificate.',
   },
   {
     name: 'Wire Harness Assembly',
@@ -781,6 +867,7 @@ export const products = [
     price: 8500,
     stock: 5,
     image: '/products/87.jpeg',
+    detail: 'Pre-assembled wire harness with color-coded wiring and labeled connectors for simplified installation.\nFeatures high-temperature Tefzel insulation and shielded wiring for EMI protection.\nIncludes mounting clips, strain relief, and complete wiring schematic.',
   },
   {
     name: 'Circuit Breaker Panel Electrical',
@@ -790,6 +877,7 @@ export const products = [
     price: 4200,
     stock: 8,
     image: '/products/88.jpeg',
+    detail: 'Pre-wired circuit breaker panel with thermal circuit breakers for branch circuit protection.\nFeatures LED indication for tripped condition and environmental sealing for moisture protection.\nIncludes mounting frame, bus bars, and installation diagram.',
   },
   {
     name: 'Electrical Connector Set',
@@ -799,6 +887,7 @@ export const products = [
     price: 1200,
     stock: 15,
     image: '/products/89.jpeg',
+    detail: 'Assorted connector kit including circular connectors, D-subminiature, and rectangular connectors.\nFeatures environmental sealing and corrosion-resistant shell materials for durability.\nIncludes contact pins, sockets, insertion tools, and storage case.',
   },
   {
     name: 'Battery Assembly',
@@ -808,6 +897,7 @@ export const products = [
     price: 6800,
     stock: 6,
     image: '/products/90.jpeg',
+    detail: 'Nickel-cadmium aircraft battery with 24V output and integrated thermal monitoring system.\nFeatures sealed construction with no maintenance requirement and long service life.\nIncludes mounting tray, hold-down hardware, and charging documentation.',
   },
   {
     name: 'Generator Unit',
@@ -817,6 +907,7 @@ export const products = [
     price: 18500,
     stock: 3,
     image: '/products/91.jpeg',
+    detail: 'Engine-driven generator producing 400Hz AC power for aircraft electrical systems.\nFeatures integrated voltage regulator and cooling fan for reliable operation.\nIncludes mounting bracket, drive coupling, and installation hardware.',
   },
   {
     name: 'Starter Motor',
@@ -826,6 +917,7 @@ export const products = [
     price: 12500,
     stock: 4,
     image: '/products/92.jpeg',
+    detail: 'High-torque starter motor with planetary gear reduction for reliable engine starting.\nFeatures sealed construction and thermal protection for safe operation.\nIncludes mounting flange, electrical connections, and installation manual.',
   },
   {
     name: 'Relay Assembly Set',
@@ -835,6 +927,7 @@ export const products = [
     price: 850,
     stock: 20,
     image: '/products/93.jpeg',
+    detail: 'Assorted relay kit including power relays, time delay relays, and latching relays.\nFeatures hermetically sealed contacts for reliable operation in demanding environments.\nIncludes mounting brackets, connector kits, and application guide.',
   },
   {
     name: 'Fuse Block Assembly',
@@ -844,6 +937,7 @@ export const products = [
     price: 650,
     stock: 25,
     image: '/products/94.jpeg',
+    detail: 'Multiple-position fuse block assembly with clear cover for visual inspection of fuse status.\nFeatures corrosion-resistant terminals and environmental sealing for protection.\nIncludes fuse assortment, mounting hardware, and circuit identification labels.',
   },
   {
     name: 'Electrical Switch Panel',
@@ -853,6 +947,7 @@ export const products = [
     price: 2800,
     stock: 12,
     image: '/products/95.jpeg',
+    detail: 'Customizable switch panel with toggle switches, rocker switches, and indicator lights.\nFeatures backlit labeling and night-vision compatible illumination for cockpit integration.\nIncludes wiring harness, mounting frame, and installation instructions.',
   },
   {
     name: 'Cable Assembly Set',
@@ -862,6 +957,7 @@ export const products = [
     price: 1800,
     stock: 15,
     image: '/products/96.jpeg',
+    detail: 'Pre-assembled cable set with various connector types for avionics and system integration.\nFeatures high-quality coaxial and shielded cable construction for signal integrity.\nIncludes cable ties, labeling, and installation routing guide.',
   },
   {
     name: 'Fuel Pump Assembly',
@@ -871,6 +967,7 @@ export const products = [
     price: 8500,
     stock: 5,
     image: '/products/97.jpeg',
+    detail: 'Electric fuel boost pump with 100 PSI output for consistent fuel delivery to engines.\nFeatures submersible design for in-tank installation with integrated filter screen.\nIncludes mounting flange, electrical connector, and installation seal kit.',
   },
   {
     name: 'Fuel Tank Assembly',
@@ -880,6 +977,7 @@ export const products = [
     price: 25000,
     stock: 2,
     image: '/products/98.jpeg',
+    detail: 'Integrated fuel tank assembly with internal baffles and fuel quantity indicating system.\nFeatures leak-proof welded construction with fuel-resistant sealant for safety.\nIncludes fuel pickups, drain valves, and installation mounting brackets.',
   },
   {
     name: 'Fuel Line Set',
@@ -889,6 +987,7 @@ export const products = [
     price: 4200,
     stock: 8,
     image: '/products/99.jpeg',
+    detail: 'Complete fuel line set with pre-formed rigid tubing and flexible hose sections.\nFeatures aluminum and PTFE construction with fire-resistant protective sleeving.\nIncludes mounting clamps, fittings, and routing installation instructions.',
   },
   {
     name: 'Fuel Valve Assembly',
@@ -898,6 +997,7 @@ export const products = [
     price: 6800,
     stock: 6,
     image: '/products/100.jpeg',
+    detail: 'Motor-operated fuel selector valve with positive shut-off for fuel management.\nFeatures position indication and manual override capability for emergency operation.\nIncludes electrical actuator, mounting base, and installation gaskets.',
   },
   {
     name: 'Fuel Quantity Sensor',
@@ -907,6 +1007,7 @@ export const products = [
     price: 2800,
     stock: 12,
     image: '/products/101.jpeg',
+    detail: 'Capacitance-type fuel quantity transmitter with compensation for fuel dielectric variations.\nFeatures sealed construction with no moving parts for reliable long-term operation.\nIncludes mounting flange, gasket, and calibration documentation.',
   },
   {
     name: 'Fuel Filter Element',
@@ -916,6 +1017,7 @@ export const products = [
     price: 450,
     stock: 30,
     image: '/products/102.jpeg',
+    detail: 'High-capacity pleated paper filter element with 10-micron absolute filtration rating.\nFeatures water-absorbing media for removal of free water from fuel system.\nIncludes replacement O-rings and installation instructions for servicing.',
   },
   {
     name: 'Fuel Cap Assembly',
@@ -925,6 +1027,7 @@ export const products = [
     price: 650,
     stock: 25,
     image: '/products/103.jpeg',
+    detail: 'Flush-mount fuel cap with key-locking mechanism for security and pressure relief valve.\nFeatures corrosion-resistant construction with positive seal for leak-proof operation.\nIncludes filler neck adapter and installation mounting hardware.',
   },
   {
     name: 'Fuel Transfer Pump',
@@ -934,6 +1037,7 @@ export const products = [
     price: 5500,
     stock: 7,
     image: '/products/104.jpeg',
+    detail: 'Electric fuel transfer pump with explosion-proof motor for safe fuel movement.\nFeatures 50 PSI output and automatic shut-off capability for pressure control.\nIncludes mounting bracket, electrical connections, and installation seal kit.',
   },
   {
     name: 'Fuel Vent System',
@@ -943,6 +1047,7 @@ export const products = [
     price: 3200,
     stock: 10,
     image: '/products/105.jpeg',
+    detail: 'Complete fuel vent system including flame arrestors, check valves, and vent lines.\nFeatures pressure relief capability and water drain provisions for system safety.\nIncludes mounting hardware, tubing, and installation instructions.',
   },
   {
     name: 'Fuel Drain Valve',
@@ -952,5 +1057,6 @@ export const products = [
     price: 850,
     stock: 20,
     image: '/products/106.jpeg',
+    detail: 'Manual fuel drain valve with self-closing design for fuel sample collection and sump draining.\nFeatures corrosion-resistant construction with positive seal for leak-free operation.\nIncludes mounting adapter, sampling container, and maintenance instructions.',
   },
 ]

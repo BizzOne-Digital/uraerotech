@@ -1,11 +1,25 @@
 import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
-export async function GET() {
+export async function GET(req: Request) {
   try {
+    const { searchParams } = new URL(req.url)
+    const search = searchParams.get('search')
+    const categoryId = searchParams.get('category')
+
     const products = await prisma.product.findMany({
+      where: {
+        ...(categoryId ? { categoryId } : {}),
+        ...(search ? {
+          OR: [
+            { name: { contains: search, mode: 'insensitive' } },
+            { description: { contains: search, mode: 'insensitive' } },
+          ]
+        } : {}),
+      },
       include: { category: true },
-      orderBy: { createdAt: 'desc' }
+      orderBy: { createdAt: 'desc' },
+      ...(search ? { take: 5 } : {}),
     })
 
     return NextResponse.json(products)
@@ -24,6 +38,7 @@ export async function POST(req: Request) {
         name: data.name,
         slug: data.slug,
         description: data.description,
+        detail: data.detail || null,
         categoryId: data.categoryId,
         price: parseFloat(data.price),
         stock: parseInt(data.stock),

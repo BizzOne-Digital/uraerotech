@@ -90,6 +90,7 @@ model Product {
   name        String
   slug        String    @unique
   description String
+  detail      String?
   categoryId  String    @db.ObjectId
   price       Float
   stock       Int       @default(0)

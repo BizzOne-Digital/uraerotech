@@ -44,6 +44,7 @@ export async function POST(req: Request) {
         name: data.name,
         slug: data.slug,
         description: data.description,
+        detail: data.detail || null,
         categoryId: data.categoryId,
         price: parseFloat(data.price),
         stock: parseInt(data.stock),

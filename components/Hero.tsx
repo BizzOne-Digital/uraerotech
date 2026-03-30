@@ -52,8 +52,11 @@ export function Hero() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight animate-slideInLeft">
               Structure Repair & Sales
             </h1>
-            <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 max-w-2xl animate-fadeIn delay-300">
+            <p className="text-base sm:text-lg md:text-xl text-white/90 mb-2 sm:mb-3 max-w-2xl animate-fadeIn delay-300">
               20+ Years of Excellence in Aircraft Structural Repairs and Modifications.
+            </p>
+            <p className="text-sm sm:text-base md:text-lg text-white/70 mb-6 sm:mb-8 max-w-2xl animate-fadeIn delay-300">
+              Supplying certified aircraft parts, aviation tools, and industry-leading services — all in one place.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fadeIn delay-500">
               <Link

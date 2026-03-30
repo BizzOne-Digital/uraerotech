@@ -104,10 +104,10 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
           ← Back to Products
         </Link>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8">
-          <div className="relative overflow-hidden rounded-xl bg-white/5 border border-white/10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 items-start">
+          <div className="rounded-xl bg-white/5 border border-white/10">
             <img src={product.image || '/products/default.jpg'} alt={product.name}
-              className="w-full h-96 object-cover"
+              className="w-full h-auto object-contain rounded-xl"
               onError={(e) => { (e.target as HTMLImageElement).src = '/products/default.jpg' }} />
           </div>
 
@@ -140,6 +140,17 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
             </div>
 
             <p className="text-white/70 mb-8 leading-relaxed">{product.description}</p>
+
+            {product.detail && (
+              <div className="mb-8 bg-white/5 border border-white/10 rounded-xl p-5 space-y-2">
+                {product.detail.split('\n').filter(Boolean).map((line: string, i: number) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <span className="text-blue-400 mt-0.5 shrink-0">✦</span>
+                    <span className="text-white/75 text-sm leading-relaxed">{line}</span>
+                  </div>
+                ))}
+              </div>
+            )}
 
             {product.stock > 0 && (
               <div className="space-y-5">

@@ -51,6 +51,7 @@ export async function PATCH(
         ...(data.name && { name: data.name }),
         ...(data.slug && { slug: data.slug }),
         ...(data.description && { description: data.description }),
+        ...(data.detail !== undefined && { detail: data.detail || null }),
         ...(data.categoryId && { categoryId: data.categoryId }),
         ...(data.price !== undefined && { price: parseFloat(data.price) }),
         ...(data.stock !== undefined && { stock: parseInt(data.stock) }),
