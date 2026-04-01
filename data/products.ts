@@ -2,7 +2,7 @@ export const products = [
   {
     name: 'Aircraft Engine Mount',
     slug: 'aircraft-engine-mount',
-    description: 'High-quality engine mount for commercial aircraft. Certified and tested.',
+    description: 'Durable and precision-engineered mount designed to securely support aircraft engines. Reliable, vibration-resistant, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 12500,
     stock: 5,
@@ -12,7 +12,7 @@ export const products = [
   {
     name: 'Aviation Torque Wrench Set',
     slug: 'aviation-torque-wrench-set',
-    description: 'Professional-grade torque wrench set for aircraft maintenance.',
+    description: 'Precision-engineered torque wrench set designed for accurate tightening of fasteners in aircraft assemblies. Durable, reliable, and built to ensure consistent performance under demanding maintenance conditions.',
     categorySlug: 'tools-equipment',
     price: 850,
     stock: 12,
@@ -22,7 +22,7 @@ export const products = [
   {
     name: 'Aircraft Landing Gear Assembly',
     slug: 'aircraft-landing-gear-assembly',
-    description: 'Complete landing gear assembly for mid-size commercial aircraft.',
+    description: 'Precision-engineered assembly designed to provide safe and reliable takeoff, landing, and taxiing operations. Durable, impact-resistant, and built for consistent performance under demanding aviation conditions.',
     categorySlug: 'landing-gear',
     price: 45000,
     stock: 2,
@@ -30,9 +30,9 @@ export const products = [
     detail: 'Complete assembly includes main strut, torque links, and integrated hydraulic lines pre-filled and tested.\nManufactured from high-strength steel alloy with corrosion-resistant coating for extended service life in harsh environments.\nIncludes all mounting hardware and detailed installation instructions with torque specifications.',
   },
   {
-    name: 'Composite Repair Kit',
+    name: 'Advanced Composite Repair Kit',
     slug: 'composite-repair-kit',
-    description: 'Complete composite repair kit with all necessary materials and tools.',
+    description: 'High-quality repair kit designed for restoring and maintaining aircraft composite structures. Durable, precision-formulated, and built to deliver strong, reliable repairs under demanding conditions.',
     categorySlug: 'tools-equipment',
     price: 1200,
     stock: 8,
@@ -42,7 +42,7 @@ export const products = [
   {
     name: 'Hydraulic Pump Assembly',
     slug: 'hydraulic-pump-assembly',
-    description: 'High-pressure hydraulic pump for aircraft systems.',
+    description: 'Precision-engineered assembly designed to deliver reliable hydraulic power to aircraft systems. Durable, corrosion-resistant, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'hydraulic-systems',
     price: 8500,
     stock: 4,
@@ -52,7 +52,7 @@ export const products = [
   {
     name: 'Fuel Filter Assembly',
     slug: 'fuel-filter-assembly',
-    description: 'Certified fuel filter assembly for aircraft fuel systems.',
+    description: 'High-performance filter assembly designed to remove contaminants and ensure clean fuel flow in aircraft engines. Durable, precision-engineered, and built for reliable, long-lasting operation under demanding aviation conditions.',
     categorySlug: 'fuel-systems',
     price: 450,
     stock: 15,
@@ -62,7 +62,7 @@ export const products = [
   {
     name: 'Wing Spar Assembly',
     slug: 'wing-spar-assembly',
-    description: 'High-strength wing spar assembly for commercial aircraft. Manufactured to exact specifications.',
+    description: 'Precision-engineered assembly designed to provide primary structural support for aircraft wings. Durable, lightweight, and built for reliable performance under demanding aerodynamic and operational conditions.',
     categorySlug: 'structural-components',
     price: 18500,
     stock: 3,
@@ -72,7 +72,7 @@ export const products = [
   {
     name: 'Fuselage Frame Section',
     slug: 'fuselage-frame-section',
-    description: 'Precision-machined fuselage frame section. Certified for multiple aircraft models.',
+    description: 'High-strength frame section designed to provide structural support and maintain the integrity of the aircraft fuselage. Durable, lightweight, and precision-engineered for reliable performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 12500,
     stock: 4,
@@ -82,7 +82,7 @@ export const products = [
   {
     name: 'Bulkhead Assembly',
     slug: 'bulkhead-assembly',
-    description: 'Aircraft bulkhead assembly with integrated mounting points. Lightweight and durable.',
+    description: 'Precision-engineered assembly designed to provide structural support and compartmentalization within aircraft fuselage. Durable, reliable, and built for long-lasting performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 9800,
     stock: 6,
@@ -92,7 +92,7 @@ export const products = [
   {
     name: 'Stringer Assembly Kit',
     slug: 'stringer-assembly-kit',
-    description: 'Complete stringer assembly kit for aircraft structural reinforcement.',
+    description: 'High-quality kit of stringers designed to reinforce and support aircraft fuselage and wing structures. Durable, lightweight, and precision-engineered for reliable performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 6500,
     stock: 8,
@@ -102,7 +102,7 @@ export const products = [
   {
     name: 'Rib Assembly Set',
     slug: 'rib-assembly-set',
-    description: 'Aircraft rib assembly set. Includes all necessary components for installation.',
+    description: 'Precision-engineered set of ribs designed to provide structural support and maintain the aerodynamic shape of aircraft wings and fuselage. Durable, lightweight, and built for reliable performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 4200,
     stock: 10,
@@ -112,7 +112,7 @@ export const products = [
   {
     name: 'Skin Panel Section',
     slug: 'skin-panel-section',
-    description: 'Aircraft skin panel section. Corrosion-resistant and lightweight construction.',
+    description: 'High-quality panel section designed for exterior aircraft surfaces, providing structural integrity and aerodynamic smoothness. Durable, lightweight, and precision-engineered for long-lasting performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 3500,
     stock: 12,
@@ -122,7 +122,7 @@ export const products = [
   {
     name: 'Frame Reinforcement Kit',
     slug: 'frame-reinforcement-kit',
-    description: 'Frame reinforcement kit for structural modifications and repairs.',
+    description: 'Durable and precision-engineered kit designed to strengthen and restore structural integrity in aircraft frames. Reliable, high-strength components built for long-lasting performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 2800,
     stock: 15,
@@ -132,7 +132,7 @@ export const products = [
   {
     name: 'Structural Bracket Set',
     slug: 'structural-bracket-set',
-    description: 'Heavy-duty structural bracket set for various mounting applications.',
+    description: 'High-quality set of brackets designed to provide secure support and reinforcement for aircraft structures. Durable, precision-engineered, and built for reliable performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 1500,
     stock: 20,
@@ -142,7 +142,7 @@ export const products = [
   {
     name: 'Beam Assembly',
     slug: 'beam-assembly',
-    description: 'Aircraft beam assembly for load-bearing applications. High-strength aluminum construction.',
+    description: 'Durable and precision-engineered structural assembly designed to provide strength and support in aircraft frameworks. Reliable, lightweight, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 7200,
     stock: 7,
@@ -152,7 +152,7 @@ export const products = [
   {
     name: 'Structural Repair Patch',
     slug: 'structural-repair-patch',
-    description: 'Composite structural repair patch kit. Includes adhesive and application tools.',
+    description: 'High-strength patch designed for quick and reliable repair of aircraft structures. Durable, precision-engineered, and built to restore integrity while withstanding demanding operational conditions.',
     categorySlug: 'structural-components',
     price: 850,
     stock: 25,
@@ -162,7 +162,7 @@ export const products = [
   {
     name: 'Turbine Blade Set',
     slug: 'turbine-blade-set',
-    description: 'Precision-engineered turbine blade set. Certified for commercial aircraft engines.',
+    description: 'Precision-engineered blades designed for optimal airflow and maximum efficiency in aircraft engines. Durable, heat-resistant, and built for reliable performance under extreme operational conditions.',
     categorySlug: 'engine-parts',
     price: 25000,
     stock: 2,
@@ -172,7 +172,7 @@ export const products = [
   {
     name: 'Compressor Assembly',
     slug: 'compressor-assembly',
-    description: 'High-performance compressor assembly for jet engines. OEM quality.',
+    description: 'High-precision assembly designed to efficiently compress air for optimal engine performance. Durable, reliable, and engineered for consistent operation under demanding aviation conditions.',
     categorySlug: 'engine-parts',
     price: 18500,
     stock: 3,
@@ -182,7 +182,7 @@ export const products = [
   {
     name: 'Combustion Chamber',
     slug: 'combustion-chamber',
-    description: 'Aircraft engine combustion chamber. Heat-resistant materials and precision engineering.',
+    description: 'Precision-engineered chamber designed for efficient fuel combustion and optimal engine performance. Durable, heat-resistant, and built for reliable operation under demanding aviation conditions.',
     categorySlug: 'engine-parts',
     price: 22000,
     stock: 2,
@@ -192,7 +192,7 @@ export const products = [
   {
     name: 'Fuel Injector Nozzle',
     slug: 'fuel-injector-nozzle',
-    description: 'Precision fuel injector nozzle for efficient fuel delivery.',
+    description: 'Precision-engineered nozzle designed for efficient fuel atomization and delivery in aircraft engines. Durable, reliable, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'engine-parts',
     price: 1200,
     stock: 15,
@@ -202,7 +202,7 @@ export const products = [
   {
     name: 'Oil Filter Assembly',
     slug: 'oil-filter-assembly',
-    description: 'Aircraft engine oil filter assembly. High-capacity filtration system.',
+    description: 'High-quality filter assembly designed to remove contaminants and ensure clean oil flow in aircraft engines. Durable, precision-engineered, and built for reliable, long-lasting performance under demanding conditions.',
     categorySlug: 'engine-parts',
     price: 650,
     stock: 20,
@@ -212,7 +212,7 @@ export const products = [
   {
     name: 'Igniter Plug Set',
     slug: 'igniter-plug-set',
-    description: 'Aircraft engine igniter plug set. Reliable ignition for engine startup.',
+    description: 'High-performance set of igniter plugs designed for reliable engine ignition in aircraft systems. Durable, precision-engineered, and built for consistent operation under demanding conditions.',
     categorySlug: 'engine-parts',
     price: 850,
     stock: 18,
@@ -222,7 +222,7 @@ export const products = [
   {
     name: 'Exhaust Nozzle',
     slug: 'exhaust-nozzle',
-    description: 'Engine exhaust nozzle assembly. Optimized for thrust and efficiency.',
+    description: 'Precision-engineered nozzle designed to efficiently direct engine exhaust flow while withstanding high temperatures and stresses. Durable, reliable, and built for consistent performance under demanding aviation conditions.',
     categorySlug: 'engine-parts',
     price: 4500,
     stock: 8,
@@ -232,7 +232,7 @@ export const products = [
   {
     name: 'Bearing Assembly',
     slug: 'bearing-assembly',
-    description: 'High-precision bearing assembly for engine rotating components.',
+    description: 'High-precision assembly designed to reduce friction and support rotational components in aircraft systems. Durable, reliable, and engineered for consistent performance under demanding operational conditions.',
     categorySlug: 'engine-parts',
     price: 3200,
     stock: 12,
@@ -242,7 +242,7 @@ export const products = [
   {
     name: 'Gearbox Assembly',
     slug: 'gearbox-assembly',
-    description: 'Aircraft engine gearbox assembly. Smooth power transmission.',
+    description: 'Precision-engineered assembly designed to transfer and regulate mechanical power within aircraft systems. Durable, reliable, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'engine-parts',
     price: 15000,
     stock: 4,
@@ -252,7 +252,7 @@ export const products = [
   {
     name: 'Engine Mount Bracket',
     slug: 'engine-mount-bracket',
-    description: 'Heavy-duty engine mount bracket. Vibration dampening design.',
+    description: 'Durable and precision-engineered bracket designed to securely support aircraft engines. Reliable, corrosion-resistant, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'engine-parts',
     price: 2800,
     stock: 10,
@@ -262,7 +262,7 @@ export const products = [
   {
     name: 'Flight Management System',
     slug: 'flight-management-system',
-    description: 'Advanced flight management system with integrated navigation capabilities.',
+    description: 'Advanced system designed to optimize navigation, performance, and flight planning. Durable, reliable, and precision-engineered for consistent operation under demanding aviation conditions.',
     categorySlug: 'avionics-electronics',
     price: 45000,
     stock: 1,
@@ -272,7 +272,7 @@ export const products = [
   {
     name: 'Autopilot Control Unit',
     slug: 'autopilot-control-unit',
-    description: 'Precision autopilot control unit for automated flight operations.',
+    description: 'Precision-engineered unit designed to manage and automate aircraft flight control systems. Durable, reliable, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'avionics-electronics',
     price: 32000,
     stock: 2,
@@ -282,7 +282,7 @@ export const products = [
   {
     name: 'GPS Navigation System',
     slug: 'gps-navigation-system',
-    description: 'High-accuracy GPS navigation system with multiple satellite support.',
+    description: 'High-precision system designed to provide accurate positioning and navigation for safe flight operations. Durable, reliable, and engineered for consistent performance under demanding aviation conditions.',
     categorySlug: 'avionics-electronics',
     price: 18500,
     stock: 3,
@@ -292,7 +292,7 @@ export const products = [
   {
     name: 'Radio Transceiver',
     slug: 'radio-transceiver',
-    description: 'Aircraft radio transceiver for communication and navigation.',
+    description: 'High-performance communication device designed for reliable voice and data transmission in aircraft systems. Durable, precision-engineered, and built for consistent operation under demanding flight conditions.',
     categorySlug: 'avionics-electronics',
     price: 8500,
     stock: 5,
@@ -302,7 +302,7 @@ export const products = [
   {
     name: 'Weather Radar Display',
     slug: 'weather-radar-display',
-    description: 'Advanced weather radar display system for flight safety.',
+    description: 'High-precision display designed to provide real-time weather information for safe flight navigation. Durable, reliable, and engineered for consistent performance under demanding aviation conditions.',
     categorySlug: 'avionics-electronics',
     price: 28000,
     stock: 2,
@@ -312,7 +312,7 @@ export const products = [
   {
     name: 'Transponder Unit',
     slug: 'transponder-unit',
-    description: 'Aircraft transponder unit for air traffic control communication.',
+    description: 'High-performance unit designed for accurate aircraft identification and communication with air traffic control. Durable, reliable, and engineered for consistent operation under demanding flight conditions.',
     categorySlug: 'avionics-electronics',
     price: 4200,
     stock: 8,
@@ -322,7 +322,7 @@ export const products = [
   {
     name: 'Instrument Display Panel',
     slug: 'instrument-display-panel',
-    description: 'Digital instrument display panel with multiple screen support.',
+    description: 'High-precision display panel designed to provide clear and accurate flight information. Durable, reliable, and engineered for consistent performance under demanding aviation conditions.',
     categorySlug: 'avionics-electronics',
     price: 12500,
     stock: 4,
@@ -332,7 +332,7 @@ export const products = [
   {
     name: 'Circuit Breaker Panel',
     slug: 'circuit-breaker-panel',
-    description: 'Aircraft circuit breaker panel for electrical system protection.',
+    description: 'Durable and reliable panel designed to protect and manage aircraft electrical circuits. Precision-engineered for secure operation, consistent performance, and long-lasting safety.',
     categorySlug: 'avionics-electronics',
     price: 2800,
     stock: 12,
@@ -342,7 +342,7 @@ export const products = [
   {
     name: 'Data Recorder Unit',
     slug: 'data-recorder-unit',
-    description: 'Flight data recorder unit for flight information logging.',
+    description: 'Precision-engineered unit designed to accurately record and store critical flight data. Durable, reliable, and built for consistent performance under demanding aviation conditions.',
     categorySlug: 'avionics-electronics',
     price: 15000,
     stock: 3,
@@ -352,7 +352,7 @@ export const products = [
   {
     name: 'Antenna Assembly',
     slug: 'antenna-assembly',
-    description: 'High-performance antenna assembly for communication systems.',
+    description: 'High-performance antenna assembly designed for reliable communication and signal reception in aircraft systems. Durable, precision-engineered, and built for consistent operation under demanding conditions.',
     categorySlug: 'avionics-electronics',
     price: 1800,
     stock: 15,
@@ -362,7 +362,7 @@ export const products = [
   {
     name: 'Main Landing Gear Strut',
     slug: 'main-landing-gear-strut',
-    description: 'Heavy-duty main landing gear strut assembly. Shock-absorbing design.',
+    description: 'Precision-engineered strut designed to absorb landing impact and support aircraft weight during takeoff, landing, and taxiing. Durable, reliable, and built for long-lasting performance under demanding conditions.',
     categorySlug: 'landing-gear',
     price: 55000,
     stock: 1,
@@ -372,7 +372,7 @@ export const products = [
   {
     name: 'Nose Landing Gear Assembly',
     slug: 'nose-landing-gear-assembly',
-    description: 'Complete nose landing gear assembly with steering mechanism.',
+    description: 'Durable and precision-engineered assembly designed for safe takeoff, landing, and taxiing operations. Built for reliable performance, impact absorption, and long-lasting operation under demanding conditions.',
     categorySlug: 'landing-gear',
     price: 35000,
     stock: 2,
@@ -382,7 +382,7 @@ export const products = [
   {
     name: 'Landing Gear Actuator',
     slug: 'landing-gear-actuator',
-    description: 'Hydraulic landing gear actuator for reliable gear extension and retraction.',
+    description: 'Precision-engineered actuator designed to extend and retract aircraft landing gear safely and reliably. Durable, corrosion-resistant, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'landing-gear',
     price: 12500,
     stock: 4,
@@ -392,7 +392,7 @@ export const products = [
   {
     name: 'Wheel Assembly Set',
     slug: 'wheel-assembly-set',
-    description: 'Aircraft wheel assembly set with brake system integration.',
+    description: 'Durable and precision-engineered wheel assemblies designed for reliable performance during takeoff, landing, and taxiing. Built for strength, safety, and long-lasting operation under demanding aviation conditions.',
     categorySlug: 'landing-gear',
     price: 8500,
     stock: 6,
@@ -402,7 +402,7 @@ export const products = [
   {
     name: 'Brake Disc Set',
     slug: 'brake-disc-set',
-    description: 'High-performance brake disc set for aircraft landing gear.',
+    description: 'High-performance brake discs designed for reliable stopping power and safe landing operations. Durable, precision-engineered, and built to withstand demanding aviation conditions.',
     categorySlug: 'landing-gear',
     price: 4200,
     stock: 10,
@@ -412,7 +412,7 @@ export const products = [
   {
     name: 'Shock Absorber Unit',
     slug: 'shock-absorber-unit',
-    description: 'Aircraft landing gear shock absorber unit. Smooth landing performance.',
+    description: 'High-performance unit designed to absorb impact and provide smooth landing operations. Durable, precision-engineered, and built for reliable performance under demanding aviation conditions.',
     categorySlug: 'landing-gear',
     price: 6800,
     stock: 8,
@@ -422,7 +422,7 @@ export const products = [
   {
     name: 'Gear Door Actuator',
     slug: 'gear-door-actuator',
-    description: 'Landing gear door actuator for smooth door operation.',
+    description: 'Precision-engineered actuator designed to control the opening and closing of aircraft landing gear doors. Durable, reliable, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'landing-gear',
     price: 3200,
     stock: 12,
@@ -432,7 +432,7 @@ export const products = [
   {
     name: 'Tire Set',
     slug: 'tire-set',
-    description: 'Aircraft tire set. High-quality rubber with reinforced construction.',
+    description: 'High-performance tire set designed for safe takeoff, landing, and ground operations. Durable, reliable, and engineered for long-lasting performance under demanding aviation conditions.',
     categorySlug: 'landing-gear',
     price: 2800,
     stock: 15,
@@ -442,7 +442,7 @@ export const products = [
   {
     name: 'Landing Gear Lock Pin',
     slug: 'landing-gear-lock-pin',
-    description: 'Safety lock pin for landing gear maintenance and ground operations.',
+    description: 'Durable and precision-engineered pin designed to secure aircraft landing gear in the locked position. Reliable, corrosion-resistant, and built for safe, long-lasting performance under demanding conditions.',
     categorySlug: 'landing-gear',
     price: 450,
     stock: 25,
@@ -452,7 +452,7 @@ export const products = [
   {
     name: 'Gear Position Sensor',
     slug: 'gear-position-sensor',
-    description: 'Landing gear position sensor for accurate gear status monitoring.',
+    description: 'Precision-engineered sensor designed to accurately monitor and report landing gear position. Durable, reliable, and built for consistent performance under demanding operational conditions.',
     categorySlug: 'landing-gear',
     price: 1200,
     stock: 18,
@@ -462,7 +462,7 @@ export const products = [
   {
     name: 'Passenger Seat Assembly',
     slug: 'passenger-seat-assembly',
-    description: 'Comfortable passenger seat assembly with adjustable features.',
+    description: 'Durable and comfortable seating solution designed for secure passenger support in aircraft cabins. Precision-engineered for safety, reliability, and long-lasting performance under demanding conditions.',
     categorySlug: 'interior-components',
     price: 2800,
     stock: 20,
@@ -472,7 +472,7 @@ export const products = [
   {
     name: 'Overhead Bin Assembly',
     slug: 'overhead-bin-assembly',
-    description: 'Aircraft overhead bin assembly. Durable and lightweight design.',
+    description: 'Durable and reliable overhead storage unit designed for secure luggage stowage in aircraft cabins. Precision-engineered for smooth operation, safety, and long-lasting performance.',
     categorySlug: 'interior-components',
     price: 4200,
     stock: 15,
@@ -482,7 +482,7 @@ export const products = [
   {
     name: 'Cabin Lighting System',
     slug: 'cabin-lighting-system',
-    description: 'LED cabin lighting system with adjustable brightness controls.',
+    description: 'High-quality lighting system designed to provide efficient, reliable, and comfortable illumination in aircraft cabins. Durable, energy-efficient, and engineered for consistent performance under demanding conditions.',
     categorySlug: 'interior-components',
     price: 3500,
     stock: 12,
@@ -492,7 +492,7 @@ export const products = [
   {
     name: 'Galley Unit',
     slug: 'galley-unit',
-    description: 'Aircraft galley unit for food service and storage.',
+    description: 'Durable and fully equipped galley designed for efficient food and beverage service in aircraft cabins. Precision-engineered for reliable operation and long-lasting performance under demanding conditions.',
     categorySlug: 'interior-components',
     price: 12500,
     stock: 5,
@@ -502,7 +502,7 @@ export const products = [
   {
     name: 'Lavatory Assembly',
     slug: 'lavatory-assembly',
-    description: 'Complete lavatory assembly with all necessary fixtures.',
+    description: 'Durable and fully integrated lavatory unit designed for reliable operation and passenger comfort. Precision-engineered for long-lasting performance in demanding aircraft environments.',
     categorySlug: 'interior-components',
     price: 18500,
     stock: 3,
@@ -512,7 +512,7 @@ export const products = [
   {
     name: 'Carpet Set',
     slug: 'carpet-set',
-    description: 'Aircraft cabin carpet set. Durable and easy to maintain.',
+    description: 'High-quality carpet set designed for comfort, durability, and aesthetic appeal in aircraft cabins. Precision-engineered for long-lasting performance and easy maintenance.',
     categorySlug: 'interior-components',
     price: 2800,
     stock: 10,
@@ -522,7 +522,7 @@ export const products = [
   {
     name: 'Window Shade Assembly',
     slug: 'window-shade-assembly',
-    description: 'Aircraft window shade assembly with smooth operation.',
+    description: 'Durable and reliable assembly designed for smooth operation and light control in aircraft cabins. Precision-engineered for consistent performance and long-lasting use.',
     categorySlug: 'interior-components',
     price: 850,
     stock: 30,
@@ -532,7 +532,7 @@ export const products = [
   {
     name: 'Cabin Panel Set',
     slug: 'cabin-panel-set',
-    description: 'Interior cabin panel set. Lightweight and fire-resistant materials.',
+    description: 'High-quality panel set designed for durable and precise installation in aircraft cabins. Reliable, lightweight, and engineered for consistent performance under demanding conditions.',
     categorySlug: 'interior-components',
     price: 4500,
     stock: 8,
@@ -542,7 +542,7 @@ export const products = [
   {
     name: 'Seat Belt Assembly',
     slug: 'seat-belt-assembly',
-    description: 'Aircraft seat belt assembly. Safety-certified and comfortable.',
+    description: 'Durable and reliable restraint system designed to ensure passenger safety and comfort. Precision-engineered for secure fastening and consistent performance under demanding conditions.',
     categorySlug: 'interior-components',
     price: 450,
     stock: 50,
@@ -552,7 +552,7 @@ export const products = [
   {
     name: 'Cabin Air Vent',
     slug: 'cabin-air-vent',
-    description: 'Adjustable cabin air vent for passenger comfort.',
+    description: 'Durable and efficient air vent designed to regulate airflow within aircraft cabins. Precision-engineered for consistent performance, comfort, and reliable operation under varying conditions.',
     categorySlug: 'interior-components',
     price: 320,
     stock: 40,
@@ -562,7 +562,7 @@ export const products = [
   {
     name: 'Rivet Gun Set',
     slug: 'rivet-gun-set',
-    description: 'Professional rivet gun set for aircraft maintenance and repairs.',
+    description: 'High-performance tool set designed for precise and secure riveting in aircraft assemblies. Durable, reliable, and built for consistent performance under demanding conditions.',
     categorySlug: 'tools-equipment',
     price: 850,
     stock: 15,
@@ -572,7 +572,7 @@ export const products = [
   {
     name: 'Sheet Metal Bender',
     slug: 'sheet-metal-bender',
-    description: 'Precision sheet metal bender for aircraft component fabrication.',
+    description: 'Precision-engineered tool designed for accurate bending and shaping of aircraft sheet metal components.',
     categorySlug: 'tools-equipment',
     price: 4200,
     stock: 6,
@@ -582,7 +582,7 @@ export const products = [
   {
     name: 'Composite Repair Kit Advanced',
     slug: 'composite-repair-kit-advanced',
-    description: 'Advanced composite repair kit with specialized tools and materials.',
+    description: 'High-quality repair kit designed for restoring and maintaining aircraft composite structures. Durable, precision-formulated, and built to deliver strong, reliable repairs under demanding conditions.',
     categorySlug: 'tools-equipment',
     price: 2800,
     stock: 8,
@@ -592,7 +592,7 @@ export const products = [
   {
     name: 'Hydraulic Test Bench',
     slug: 'hydraulic-test-bench',
-    description: 'Professional hydraulic test bench for system testing and calibration.',
+    description: 'High-performance test bench designed for accurate testing and evaluation of aircraft hydraulic systems. Durable, precision-engineered, and built for reliable performance under demanding maintenance conditions.',
     categorySlug: 'tools-equipment',
     price: 18500,
     stock: 2,
@@ -602,7 +602,7 @@ export const products = [
   {
     name: 'Wire Crimping Tool Set',
     slug: 'wire-crimping-tool-set',
-    description: 'Precision wire crimping tool set for electrical connections.',
+    description: 'Precision-engineered tool set for secure and reliable wire terminations in aircraft systems. Durable, easy to use, and designed for consistent performance under demanding conditions.',
     categorySlug: 'tools-equipment',
     price: 650,
     stock: 20,
@@ -612,7 +612,7 @@ export const products = [
   {
     name: 'Borescope Inspection Kit',
     slug: 'borescope-inspection-kit',
-    description: 'Advanced borescope inspection kit for internal component examination.',
+    description: 'High-performance inspection kit designed for visual access to hard-to-reach areas in aircraft components. Durable, precise, and built for clear, reliable inspections under demanding conditions.',
     categorySlug: 'tools-equipment',
     price: 8500,
     stock: 4,
@@ -622,7 +622,7 @@ export const products = [
   {
     name: 'Calibration Equipment Set',
     slug: 'calibration-equipment-set',
-    description: 'Precision calibration equipment set for instrument verification.',
+    description: 'Precision-engineered set designed for accurate calibration of aircraft instruments and systems. Reliable, durable, and built to ensure consistent performance under demanding maintenance conditions.',
     categorySlug: 'tools-equipment',
     price: 12500,
     stock: 3,
@@ -632,7 +632,7 @@ export const products = [
   {
     name: 'Safety Harness Set',
     slug: 'safety-harness-set',
-    description: 'Professional safety harness set for maintenance personnel.',
+    description: 'Durable and reliable harness system designed to ensure secure restraint and safety in aircraft. Precision-engineered for comfort, strength, and consistent performance under demanding conditions.',
     categorySlug: 'tools-equipment',
     price: 1200,
     stock: 12,
@@ -642,7 +642,7 @@ export const products = [
   {
     name: 'Measuring Tool Kit',
     slug: 'measuring-tool-kit',
-    description: 'Comprehensive measuring tool kit for precision measurements.',
+    description: 'Precision-engineered set of measuring tools for accurate inspections and maintenance in aircraft assemblies. Durable, reliable, and designed to ensure consistent performance under demanding conditions.',
     categorySlug: 'tools-equipment',
     price: 1800,
     stock: 10,
@@ -652,7 +652,7 @@ export const products = [
   {
     name: 'Cleaning Solution Set',
     slug: 'cleaning-solution-set',
-    description: 'Aircraft-grade cleaning solution set for maintenance operations.',
+    description: 'Complete set of high-quality cleaning solutions for maintaining aircraft surfaces and components.',
     categorySlug: 'tools-equipment',
     price: 450,
     stock: 25,
@@ -662,7 +662,7 @@ export const products = [
   {
     name: 'Aircraft Bolt Set',
     slug: 'aircraft-bolt-set',
-    description: 'High-strength aircraft bolt set. Various sizes and materials available.',
+    description: 'High-quality assortment of precision-engineered bolts for secure fastening in aircraft assemblies. Durable, reliable, and built to maintain consistent performance under demanding operational conditions.',
     categorySlug: 'fasteners-hardware',
     price: 850,
     stock: 30,
@@ -672,7 +672,7 @@ export const products = [
   {
     name: 'Rivet Assortment Kit',
     slug: 'rivet-assortment-kit',
-    description: 'Comprehensive rivet assortment kit for various applications.',
+    description: 'Precision-engineered assortment of rivets for secure fastening in aircraft assemblies. Durable, reliable, and designed to deliver consistent performance under demanding operational conditions.',
     categorySlug: 'fasteners-hardware',
     price: 650,
     stock: 25,
@@ -682,7 +682,7 @@ export const products = [
   {
     name: 'Screw Set Collection',
     slug: 'screw-set-collection',
-    description: 'Aircraft-grade screw set collection. Multiple thread types and sizes.',
+    description: 'Precision-engineered assortment of screws for secure fastening in aircraft assemblies. Durable, reliable, and designed to ensure consistent performance under demanding operational conditions.',
     categorySlug: 'fasteners-hardware',
     price: 450,
     stock: 35,
@@ -692,7 +692,7 @@ export const products = [
   {
     name: 'Washer Assortment',
     slug: 'washer-assortment',
-    description: 'Precision washer assortment for various fastener applications.',
+    description: 'Precision-engineered assortment of washers for secure fastening in aircraft assemblies.',
     categorySlug: 'fasteners-hardware',
     price: 280,
     stock: 50,
@@ -702,7 +702,7 @@ export const products = [
   {
     name: 'Nut Collection Set',
     slug: 'nut-collection-set',
-    description: 'Aircraft-grade nut collection set. Locking and standard types.',
+    description: 'Precision-engineered assortment of nuts for secure fastening in aircraft assemblies.',
     categorySlug: 'fasteners-hardware',
     price: 550,
     stock: 40,
@@ -712,7 +712,7 @@ export const products = [
   {
     name: 'Pin Set Assortment',
     slug: 'pin-set-assortment',
-    description: 'Aircraft pin set assortment. Cotter pins and clevis pins included.',
+    description: 'Precision-engineered assortment of pins for secure fastening in aircraft assemblies. Durable, reliable, and designed for consistent performance under demanding conditions.',
     categorySlug: 'fasteners-hardware',
     price: 320,
     stock: 45,
@@ -722,7 +722,7 @@ export const products = [
   {
     name: 'Clamp Set',
     slug: 'clamp-set',
-    description: 'Aircraft clamp set for hose and cable management.',
+    description: 'High-quality clamp set designed to secure hoses, cables, and components in aircraft systems. Durable, precision-engineered, and built for reliable performance under demanding operational conditions.',
     categorySlug: 'fasteners-hardware',
     price: 680,
     stock: 20,
@@ -732,7 +732,7 @@ export const products = [
   {
     name: 'Bracket Hardware Kit',
     slug: 'bracket-hardware-kit',
-    description: 'Complete bracket hardware kit with all mounting components.',
+    description: 'Complete set of high-quality brackets and hardware for secure mounting in aircraft assemblies. Durable, precision-engineered, and designed for reliable performance under demanding conditions.',
     categorySlug: 'fasteners-hardware',
     price: 850,
     stock: 18,
@@ -742,7 +742,7 @@ export const products = [
   {
     name: 'Retaining Ring Set',
     slug: 'retaining-ring-set',
-    description: 'Aircraft retaining ring set for component retention applications.',
+    description: 'Precision-engineered retaining rings for securing components in aircraft assemblies. Durable, reliable, and built to maintain strong connections under demanding operational conditions.',
     categorySlug: 'fasteners-hardware',
     price: 420,
     stock: 30,
@@ -752,7 +752,7 @@ export const products = [
   {
     name: 'Threaded Insert Set',
     slug: 'threaded-insert-set',
-    description: 'Threaded insert set for repair and modification applications.',
+    description: 'High-quality insert set for creating strong, reliable threaded connections in aircraft components. Durable, precision-engineered, and built for consistent performance under demanding conditions.',
     categorySlug: 'fasteners-hardware',
     price: 750,
     stock: 22,
@@ -762,7 +762,7 @@ export const products = [
   {
     name: 'Hydraulic Pump Unit',
     slug: 'hydraulic-pump-unit',
-    description: 'High-pressure hydraulic pump unit for aircraft systems.',
+    description: 'Durable and reliable pump unit designed to provide consistent hydraulic power for aircraft systems. Precision-engineered for efficient operation, corrosion resistance, and long-lasting performance under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 12500,
     stock: 4,
@@ -772,7 +772,7 @@ export const products = [
   {
     name: 'Hydraulic Cylinder',
     slug: 'hydraulic-cylinder',
-    description: 'Precision hydraulic cylinder for landing gear and control surfaces.',
+    description: 'Precision-engineered hydraulic cylinder for reliable actuation in aircraft systems. Durable, corrosion-resistant, and built to deliver consistent performance under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 8500,
     stock: 6,
@@ -782,7 +782,7 @@ export const products = [
   {
     name: 'Hydraulic Filter Assembly',
     slug: 'hydraulic-filter-assembly',
-    description: 'High-capacity hydraulic filter assembly for system cleanliness.',
+    description: 'High-performance filter assembly designed to remove contaminants from aircraft hydraulic systems. Durable, precision-engineered, and built for reliable, long-lasting operation under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 1200,
     stock: 15,
@@ -792,7 +792,7 @@ export const products = [
   {
     name: 'Hydraulic Reservoir',
     slug: 'hydraulic-reservoir',
-    description: 'Aircraft hydraulic reservoir with integrated monitoring system.',
+    description: 'Durable reservoir designed to store and manage hydraulic fluid in aircraft systems. Precision-engineered for reliable performance, corrosion resistance, and long-lasting operation under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 4200,
     stock: 8,
@@ -802,7 +802,7 @@ export const products = [
   {
     name: 'Hydraulic Valve Assembly',
     slug: 'hydraulic-valve-assembly',
-    description: 'Precision hydraulic valve assembly for flow control.',
+    description: 'Precision-engineered valve assembly for controlling hydraulic flow in aircraft systems. Durable, leak-proof, and built for reliable, long-lasting performance under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 6800,
     stock: 5,
@@ -812,7 +812,7 @@ export const products = [
   {
     name: 'Hydraulic Hose Set',
     slug: 'hydraulic-hose-set',
-    description: 'High-pressure hydraulic hose set. Various lengths and fittings.',
+    description: 'High-quality hose set designed for safe and efficient fluid transfer in aircraft hydraulic systems. Durable, flexible, and engineered for reliable performance under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 2800,
     stock: 12,
@@ -822,7 +822,7 @@ export const products = [
   {
     name: 'Hydraulic Fitting Kit',
     slug: 'hydraulic-fitting-kit',
-    description: 'Comprehensive hydraulic fitting kit for system connections.',
+    description: 'Complete kit of high-quality fittings for secure, leak-free connections in aircraft hydraulic systems. Durable, precision-engineered, and built for reliable performance under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 850,
     stock: 20,
@@ -832,7 +832,7 @@ export const products = [
   {
     name: 'Hydraulic Accumulator',
     slug: 'hydraulic-accumulator',
-    description: 'Aircraft hydraulic accumulator for pressure stabilization.',
+    description: 'Precision-engineered accumulator designed to store hydraulic energy and maintain system pressure for reliable aircraft operation. Durable, corrosion-resistant, and built for long-lasting performance under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 5500,
     stock: 7,
@@ -842,7 +842,7 @@ export const products = [
   {
     name: 'Hydraulic Seal Kit',
     slug: 'hydraulic-seal-kit',
-    description: 'Complete hydraulic seal kit for system maintenance and repair.',
+    description: 'Complete seal kit designed to prevent leaks and ensure reliable performance of aircraft hydraulic systems. Durable, precision-engineered, and built for long-lasting operation under demanding conditions.',
     categorySlug: 'hydraulic-systems',
     price: 650,
     stock: 25,
@@ -852,7 +852,7 @@ export const products = [
   {
     name: 'Hydraulic Pressure Gauge',
     slug: 'hydraulic-pressure-gauge',
-    description: 'Precision hydraulic pressure gauge for system monitoring.',
+    description: 'Precision gauge designed to monitor hydraulic system pressure accurately and reliably. Durable, corrosion-resistant, and engineered for consistent performance under demanding aviation conditions.',
     categorySlug: 'hydraulic-systems',
     price: 450,
     stock: 30,
@@ -862,7 +862,7 @@ export const products = [
   {
     name: 'Wire Harness Assembly',
     slug: 'wire-harness-assembly',
-    description: 'Complete wire harness assembly for aircraft electrical systems.',
+    description: 'High-quality wire harness assembly for organized, reliable electrical connections in aircraft systems. Durable, precision-engineered, and built to withstand demanding operational conditions.',
     categorySlug: 'electrical-components',
     price: 8500,
     stock: 5,
@@ -872,7 +872,7 @@ export const products = [
   {
     name: 'Circuit Breaker Panel Electrical',
     slug: 'circuit-breaker-panel-electrical',
-    description: 'Aircraft circuit breaker panel for electrical protection.',
+    description: 'Reliable and durable panel designed to protect and manage aircraft electrical circuits. Precision-engineered for secure operation, consistent performance, and long-lasting safety.',
     categorySlug: 'electrical-components',
     price: 4200,
     stock: 8,
@@ -882,7 +882,7 @@ export const products = [
   {
     name: 'Electrical Connector Set',
     slug: 'electrical-connector-set',
-    description: 'Aircraft-grade electrical connector set. Various types and sizes.',
+    description: 'High-quality connector set for secure and reliable electrical connections in aircraft systems. Durable, precision-engineered, and built to perform under demanding operational conditions.',
     categorySlug: 'electrical-components',
     price: 1200,
     stock: 15,
@@ -892,7 +892,7 @@ export const products = [
   {
     name: 'Battery Assembly',
     slug: 'battery-assembly',
-    description: 'Aircraft battery assembly with integrated charging system.',
+    description: 'High-performance battery assembly designed to provide reliable power for aircraft systems. Durable, long-lasting, and engineered for consistent performance under demanding aviation conditions.',
     categorySlug: 'electrical-components',
     price: 6800,
     stock: 6,
@@ -902,7 +902,7 @@ export const products = [
   {
     name: 'Generator Unit',
     slug: 'generator-unit',
-    description: 'Aircraft generator unit for electrical power generation.',
+    description: 'Durable and reliable generator unit designed to provide consistent electrical power for aircraft systems. Precision-engineered for efficiency, long-lasting performance, and operation under demanding conditions.',
     categorySlug: 'electrical-components',
     price: 18500,
     stock: 3,
@@ -912,7 +912,7 @@ export const products = [
   {
     name: 'Starter Motor',
     slug: 'starter-motor',
-    description: 'Aircraft starter motor for engine startup operations.',
+    description: 'Reliable and high-performance starter motor designed to provide consistent engine ignition in aircraft. Durable, precision-engineered, and built to withstand demanding aviation conditions.',
     categorySlug: 'electrical-components',
     price: 12500,
     stock: 4,
@@ -922,7 +922,7 @@ export const products = [
   {
     name: 'Relay Assembly Set',
     slug: 'relay-assembly-set',
-    description: 'Aircraft relay assembly set for electrical switching applications.',
+    description: 'High-quality relay assembly set for reliable switching and control of aircraft electrical systems. Durable, precision-engineered, and built for consistent performance under demanding conditions.',
     categorySlug: 'electrical-components',
     price: 850,
     stock: 20,
@@ -932,7 +932,7 @@ export const products = [
   {
     name: 'Fuse Block Assembly',
     slug: 'fuse-block-assembly',
-    description: 'Aircraft fuse block assembly for circuit protection.',
+    description: 'Reliable and durable fuse block designed to protect aircraft electrical circuits. Precision-engineered for secure connections, consistent performance, and long-lasting operation.',
     categorySlug: 'electrical-components',
     price: 650,
     stock: 25,
@@ -942,7 +942,7 @@ export const products = [
   {
     name: 'Electrical Switch Panel',
     slug: 'electrical-switch-panel',
-    description: 'Aircraft electrical switch panel with multiple control switches.',
+    description: 'Durable and reliable switch panel designed for safe and efficient control of aircraft electrical systems. Precision-engineered for consistent performance and long-lasting operation.',
     categorySlug: 'electrical-components',
     price: 2800,
     stock: 12,
@@ -952,7 +952,7 @@ export const products = [
   {
     name: 'Cable Assembly Set',
     slug: 'cable-assembly-set',
-    description: 'Aircraft cable assembly set for various electrical connections.',
+    description: 'High-quality cable assembly set for reliable electrical and control connections in aircraft systems. Durable, precision-engineered, and built to withstand demanding operational conditions.',
     categorySlug: 'electrical-components',
     price: 1800,
     stock: 15,
@@ -962,7 +962,7 @@ export const products = [
   {
     name: 'Fuel Pump Assembly',
     slug: 'fuel-pump-assembly',
-    description: 'High-capacity fuel pump assembly for aircraft fuel systems.',
+    description: 'Reliable and durable pump assembly for efficient fuel delivery in aircraft systems. Precision-engineered, corrosion-resistant, and built for consistent performance under demanding aviation conditions.',
     categorySlug: 'fuel-systems',
     price: 8500,
     stock: 5,
@@ -972,7 +972,7 @@ export const products = [
   {
     name: 'Fuel Tank Assembly',
     slug: 'fuel-tank-assembly',
-    description: 'Aircraft fuel tank assembly with integrated monitoring system.',
+    description: 'Durable, precision-engineered fuel tank designed for safe storage and reliable delivery of fuel in aircraft systems. Built from corrosion-resistant materials for long-lasting, dependable performance.',
     categorySlug: 'fuel-systems',
     price: 25000,
     stock: 2,
@@ -982,7 +982,7 @@ export const products = [
   {
     name: 'Fuel Line Set',
     slug: 'fuel-line-set',
-    description: 'Aircraft fuel line set. High-quality materials for safe fuel transfer.',
+    description: 'High-quality fuel lines designed for safe, efficient fuel delivery in aircraft systems. Durable, flexible, and corrosion-resistant for reliable performance under demanding conditions.',
     categorySlug: 'fuel-systems',
     price: 4200,
     stock: 8,
@@ -992,7 +992,7 @@ export const products = [
   {
     name: 'Fuel Valve Assembly',
     slug: 'fuel-valve-assembly',
-    description: 'Precision fuel valve assembly for flow control and safety.',
+    description: 'Precision-engineered valve assembly for safe and controlled fuel flow in aircraft systems. Durable, leak-proof, and built from corrosion-resistant materials for reliable, long-lasting performance.',
     categorySlug: 'fuel-systems',
     price: 6800,
     stock: 6,
@@ -1002,7 +1002,7 @@ export const products = [
   {
     name: 'Fuel Quantity Sensor',
     slug: 'fuel-quantity-sensor',
-    description: 'Aircraft fuel quantity sensor for accurate fuel level monitoring.',
+    description: 'Accurate and reliable sensor for monitoring aircraft fuel levels in real time. Durable, precision-engineered, and designed for consistent performance under demanding aviation conditions.',
     categorySlug: 'fuel-systems',
     price: 2800,
     stock: 12,
@@ -1012,7 +1012,7 @@ export const products = [
   {
     name: 'Fuel Filter Element',
     slug: 'fuel-filter-element',
-    description: 'Aircraft fuel filter element for clean fuel delivery.',
+    description: 'High-performance filter designed to remove impurities and contaminants from aircraft fuel, ensuring clean fuel flow and reliable engine operation. Durable, precision-engineered, and built for long-lasting performance.',
     categorySlug: 'fuel-systems',
     price: 450,
     stock: 30,
@@ -1022,7 +1022,7 @@ export const products = [
   {
     name: 'Fuel Cap Assembly',
     slug: 'fuel-cap-assembly',
-    description: 'Aircraft fuel cap assembly with secure locking mechanism.',
+    description: 'Secure and durable cap assembly for aircraft fuel tanks, ensuring leak-proof sealing and safe operation. Built from corrosion-resistant materials for long-lasting, reliable performance.',
     categorySlug: 'fuel-systems',
     price: 650,
     stock: 25,
@@ -1032,7 +1032,7 @@ export const products = [
   {
     name: 'Fuel Transfer Pump',
     slug: 'fuel-transfer-pump',
-    description: 'Aircraft fuel transfer pump for fuel management operations.',
+    description: 'Efficient and reliable pump for safe fuel transfer between tanks or to aircraft systems. Durable, corrosion-resistant, and engineered for consistent performance under demanding aviation conditions.',
     categorySlug: 'fuel-systems',
     price: 5500,
     stock: 7,
@@ -1042,7 +1042,7 @@ export const products = [
   {
     name: 'Fuel Vent System',
     slug: 'fuel-vent-system',
-    description: 'Aircraft fuel vent system for safe fuel tank pressure management.',
+    description: 'Ensures safe and efficient venting of aircraft fuel tanks to maintain proper pressure and prevent fuel spillage. Durable, corrosion-resistant, and designed for reliable performance in all flight conditions.',
     categorySlug: 'fuel-systems',
     price: 3200,
     stock: 10,
@@ -1052,7 +1052,7 @@ export const products = [
   {
     name: 'Fuel Drain Valve',
     slug: 'fuel-drain-valve',
-    description: 'Aircraft fuel drain valve for maintenance and sampling operations.',
+    description: 'Precision valve for safe and controlled fuel drainage during maintenance and sampling operations. Durable, leak-proof, and corrosion-resistant for reliable performance in any aircraft fuel system.',
     categorySlug: 'fuel-systems',
     price: 850,
     stock: 20,
